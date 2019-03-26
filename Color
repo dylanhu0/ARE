@@ -1,3 +1,6 @@
+x=random.random()
+print(x)
+
 def couleur(x):
     """
     fzefzfzfezfezfze -> list[str]
