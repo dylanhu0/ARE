@@ -255,7 +255,7 @@ def cercle():
         root.update()
         time.sleep(0.04)
 
-
+    
 
 
 def Effacer():
@@ -281,4 +281,84 @@ Checkbutton(root,text="C",command=cercle).pack(side=TOP,padx=10,pady=10)
 Checkbutton(root,text="X",command=cercle).pack(side=BOTTOM,padx=10,pady=10)
 Checkbutton(root,text="Y",command=cercle).pack(side=BOTTOM,padx=10,pady=10)
 Checkbutton(root,text="Z",command=cercle).pack(side=BOTTOM,padx=10,pady=10)
+
+
+ball = canvas.create_oval(10, 10, 60, 60, fill='black')
+ball2 = canvas.create_oval(10, 10, 60, 60, fill='black')
+ball3 = canvas.create_oval(10, 10, 60, 60, fill='black')
+ball4 = canvas.create_oval(10, 10, 60, 60, fill='black')
+ball5 = canvas.create_oval(10, 10, 60, 60, fill='black')
+ball6 = canvas.create_oval(10, 10, 60, 60, fill='black')
+
+xspeed = 4
+yspeed = 5
+
+xspeed2 = 6
+yspeed2 = 6
+
+xspeed3 = 2
+yspeed3 = 11
+    
+xspeed4 = 4
+yspeed4 = 7
+
+xspeed5 = 7
+yspeed5 = 8
+
+xspeed6 = 3
+yspeed6 = 9
+    
+while True:
+    canvas.move(ball, xspeed, yspeed)
+    pos = canvas.coords(ball)
+
+    if pos[3] >= HEIGHT or pos[1] <= 0:
+        yspeed = -yspeed
+    if pos[2] >= WIDTH or pos[0] <= 0:
+        xspeed = -xspeed
+    
+    canvas.move(ball2, xspeed2, yspeed2)
+    pos = canvas.coords(ball2)
+    if pos[3] >= HEIGHT or pos[1] <= 0:
+        yspeed2 = -yspeed2
+    if pos[2] >= WIDTH or pos[0] <= 0:
+        xspeed2 = -xspeed2
+    
+    canvas.move(ball3, xspeed3, yspeed3)
+    pos = canvas.coords(ball3)
+    
+    if pos[3] >= HEIGHT or pos[1] <= 0:
+        yspeed3 = -yspeed3
+    if pos[2] >= WIDTH or pos[0] <= 0:
+        xspeed3 = -xspeed3
+        
+    canvas.move(ball4, xspeed4, yspeed4)
+    pos = canvas.coords(ball4)
+    
+    if pos[3] >= HEIGHT or pos[1] <= 0:
+        yspeed4 = -yspeed4
+    if pos[2] >= WIDTH or pos[0] <= 0:
+        xspeed4 = -xspeed4
+   
+    canvas.move(ball5, xspeed5, yspeed5)
+    pos = canvas.coords(ball5)
+    
+    if pos[3] >= HEIGHT or pos[1] <= 0:
+        yspeed5 = -yspeed5
+    if pos[2] >= WIDTH or pos[0] <= 0:
+        xspeed5 = -xspeed5
+
+      
+    canvas.move(ball6, xspeed6, yspeed6)
+    pos = canvas.coords(ball6)
+    
+    if pos[3] >= HEIGHT or pos[1] <= 0:
+        yspeed6 = -yspeed6
+    if pos[2] >= WIDTH or pos[0] <= 0:
+        xspeed6 = -xspeed6
+            
+            
+    root.update()
+    time.sleep(0.04)
+
 root.mainloop()
