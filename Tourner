@@ -1,0 +1,46 @@
+# script animation_balle.py
+#(C) Fabrice 
+
+from tkinter import *
+import math,random
+import cmath
+
+LARGEUR = 480
+HAUTEUR = 320
+RAYON = 15 # rayon de la balle
+
+cangle=cmath.exp(0.05j)
+print(cangle)
+
+# position initiale au milieu
+X=50
+Y=50
+XC=LARGEUR/2
+YC=HAUTEUR/2
+
+def deplacement():
+    """  de la balle """
+    global X,Y,DX,DY,RAYON,LARGEUR,HAUTEUR
+    V=cangle*complex(X,Y)
+    X=V.real
+    Y=V.imag
+    
+    # affichage
+    Canevas.coords(Balle,XC+X-RAYON,YC+Y-RAYON,XC+X+RAYON,YC+Y+RAYON)
+
+
+    Mafenetre.after(50,deplacement)
+
+#  de la  principale
+Mafenetre = Tk()
+Mafenetre.title("Animation Balle")
+
+#  d'un widget Canvas
+Canevas = Canvas(Mafenetre,height=HAUTEUR,width=LARGEUR,bg='white')
+Canevas.pack(padx=5,pady=5)
+
+#  d'un objet graphique
+Balle = Canevas.create_oval(X-RAYON,Y-RAYON,X+RAYON,Y+RAYON,width=1,fill='green')
+
+deplacement()
+Mafenetre.mainloop()
