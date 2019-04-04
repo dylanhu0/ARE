@@ -1,10 +1,6 @@
-
 import random
 x1=random.random()
 print('x1=',x1)
-
-
-
 
 
 def couleur(x1):
@@ -277,7 +273,7 @@ BoutonEffacer.pack(side = LEFT, padx = 5, pady = 5)
 
 
 
-Checkbutton(root,text="A",command=deplacement).pack(side=TOP,padx=10,pady=10)
+Checkbutton(root,text="A",command=cercle).pack(side=TOP,padx=10,pady=10)
 Checkbutton(root,text="B",command=cercle).pack(side=TOP,padx=10,pady=10)
 Checkbutton(root,text="C",command=cercle).pack(side=TOP,padx=10,pady=10)
 
@@ -288,4 +284,4 @@ Checkbutton(root,text="Z",command=cercle).pack(side=BOTTOM,padx=10,pady=10)
 
 root.mainloop()
 
-  
+
