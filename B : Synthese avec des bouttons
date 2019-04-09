@@ -1,3 +1,6 @@
+#Synthese avec boutons
+
+
 from tkinter import *
 import random
 import time
@@ -44,7 +47,7 @@ Color2=couleur2(x2)
 print(Color2)
 
 
-def deplacement():
+def rotation():
     """  de la balle """
     #print('in deplacement')
     global X,X2,Y2,Y,DX,DY,RAYON,LARGEUR,HAUTEUR,Arret
@@ -58,7 +61,7 @@ def deplacement():
         root.update()
         time.sleep(0.04)
 
-def cercle():
+def aleatoire():
     global Arret
     ball2 = canvas.create_oval(10, 10, 60, 60, fill=random.sample(Color2,1))
     xspeed2 = 6
@@ -81,13 +84,7 @@ def go():
     x2=random.random()
     Color2=couleur2(x2)
     Arret=False
-    if x2>0.2:
-        print('hi',x2)
-        cercle()
-        x2=0
-    else:
-        print('bye',x2)
-        deplacement()
+    aleatoire()
 
         
 def Effacer():
@@ -119,7 +116,7 @@ echelle.pack(padx=10,pady=10)
 
 
 
-#Les bouttons 
+#Les boutons 
 
 # Création d'un widget Button (bouton +)
 Button(root,text="+",command=plus).pack(padx=10,pady=10)
@@ -130,10 +127,10 @@ Button(root,text="-",command=moins).pack(padx=10,pady=10)
 BoutonGo = Button(root, text ='Go', command = go)
 BoutonGo.pack(side = LEFT, padx = 10, pady = 10)
 
-BoutonGo = Button(root, text ='cercle', command = cercle)
+BoutonGo = Button(root, text ='Rotation', command = rotation)
 BoutonGo.pack(side = LEFT, padx = 10, pady = 10)
 
-BoutonGo = Button(root, text ='deplacement', command = deplacement)
+BoutonGo = Button(root, text ='Aléatoire', command = aleatoire)
 BoutonGo.pack(side = LEFT, padx = 10, pady = 10)
 
 BoutonEffacer = Button(root, text ='Effacer', command = Effacer)
