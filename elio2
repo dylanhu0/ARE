@@ -34,77 +34,71 @@ def couleur2(x2):
     """
     fzefzfzfezfezfze -> list[str]
     """
-    
-
     Color2=[]
-
     if x2>= 0 and x2 <= 0.20:
         Color2.append('red')
     elif x2>0.2:
         Color2.append('black')
-    
     return Color2
+
 Color2=couleur2(x2)
 print(Color2)
 
 
-
-
-
-
 def deplacement():
     """  de la balle """
-
-    global X,X2,Y2,Y,DX,DY,RAYON,LARGEUR,HAUTEUR
-    V=cangle*complex(X,Y)
-    X=V.real
-    Y=V.imag
-    canvas.coords(Balle,XC+X-RAYON,YC+Y-RAYON,XC+X+RAYON,YC+Y+RAYON)
-    root.after(50,deplacement)
+    #print('in deplacement')
+    global X,X2,Y2,Y,DX,DY,RAYON,LARGEUR,HAUTEUR,Arret
+    Balle = canvas.create_oval(X,Y,X,Y,fill='red')
+    Arret=False
+    while not(Arret):
+        V=cangle*complex(X,Y)
+        X=V.real
+        Y=V.imag
+        canvas.coords(Balle,XC+X-RAYON,YC+Y-RAYON,XC+X+RAYON,YC+Y+RAYON)
+        root.update()
+        time.sleep(0.04)
 
 def cercle():
+    global Arret
     ball2 = canvas.create_oval(10, 10, 60, 60, fill=random.sample(Color2,1))
     xspeed2 = 6
     yspeed2 = 6
-
-    
-    while True:
+    Arret=False
+    while not(Arret):
         canvas.move(ball2, xspeed2, yspeed2)
         pos = canvas.coords(ball2)
-
         if pos[3] >= HEIGHT or pos[1] <= 0:
             yspeed2 = -yspeed2
         if pos[2] >= WIDTH or pos[0] <= 0:
             xspeed2 = -xspeed2
         root.update()
         time.sleep(0.04)
-        
 
-
-def prog():
+def go():
     #pour la couleur
+    global Color2,Arret
     canvas.delete('all')
     x2=random.random()
     Color2=couleur2(x2)
-
+    Arret=False
     if x2>0.2:
         print('hi',x2)
-
         cercle()
         x2=0
     else:
         print('bye',x2)
         deplacement()
 
-
+        
 def Effacer():
-
+    global Arret
+    Arret=True
     canvas.delete('all')
     
-Balle = canvas.create_oval(X,Y,X,Y,fill='red')
+Arret=False
 
-
-BoutonGo = Button(root, text ='Go', command = prog)
+BoutonGo = Button(root, text ='Go', command = go)
 BoutonGo.pack(side = LEFT, padx = 10, pady = 10)
 
 BoutonGo = Button(root, text ='cercle', command = cercle)
