@@ -1,0 +1,37 @@
+#Couleurs : Liste qui s'agrandit
+
+
+import random
+import math,random
+import cmath
+
+
+
+
+def couleur(Color):
+    """
+    definit une couleur aleatoirement entre vert = soutien, red = agresseur, white = neutre
+    """
+    x1=random.random()
+    #Color=[]
+
+    if x1>= 0 and x1 <= 0.2:
+        Color.append('red')
+    elif x1>0.20 and x1 <=0.60:
+        Color.append('green')
+    elif x1>0.6:
+        Color.append('white')
+        
+    return Color
+
+L=[]
+
+for i in range(20):
+    L=couleur(L)
+    print(L)
+
+    
+#Déplacement autour d'une balle bleue : 
+
+
+
