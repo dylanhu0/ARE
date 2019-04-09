@@ -1,3 +1,7 @@
+
+#Synthese des deplacements
+
+
 from tkinter import *
 import random
 import time
@@ -24,7 +28,7 @@ XC=WIDTH/2
 YC=HEIGHT/2
 
 
-cangle=cmath.exp(0.05j)
+cangle=cmath.exp(0.09j)
 print(cangle)
 
 
