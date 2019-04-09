@@ -26,26 +26,10 @@ YC=HEIGHT/2
 
 cangle=cmath.exp(0.05j)
 print(cangle)
-x2=random.random()
 
 
-def couleur2(x2):
-    """
-    fzefzfzfezfezfze -> list[str]
-    """
-    Color2=[]
-    if x2>= 0 and x2 <= 0.20:
-        Color2.append('red')
-    elif x2>0.2:
-        Color2.append('black')
-    return Color2
-
-Color2=couleur2(x2)
-print(Color2)
-
-
-def deplacement():
-    """  de la balle """
+def rotation():
+    """  Deplacement circulaire """
     #print('in deplacement')
     global X,X2,Y2,Y,DX,DY,RAYON,LARGEUR,HAUTEUR,Arret
     Balle = canvas.create_oval(X,Y,X,Y,fill='red')
@@ -58,7 +42,7 @@ def deplacement():
         root.update()
         time.sleep(0.04)
 
-def cercle():
+def aleatoire():
     global Arret
     ball2 = canvas.create_oval(10, 10, 60, 60, fill=random.sample(Color2,1))
     xspeed2 = 6
@@ -74,20 +58,7 @@ def cercle():
         root.update()
         time.sleep(0.04)
 
-def go():
-    #pour la couleur
-    global Color2,Arret
-    canvas.delete('all')
-    x2=random.random()
-    Color2=couleur2(x2)
-    Arret=False
-    if x2>0.2:
-        print('hi',x2)
-        cercle()
-        x2=0
-    else:
-        print('bye',x2)
-        deplacement()
+
 
         
 def Effacer():
@@ -98,13 +69,11 @@ def Effacer():
 Arret=False
 
 
-BoutonGo = Button(root, text ='Go', command = go)
+
+BoutonGo = Button(root, text ='Aléatoire', command = aleatoire)
 BoutonGo.pack(side = LEFT, padx = 10, pady = 10)
 
-BoutonGo = Button(root, text ='cercle', command = cercle)
-BoutonGo.pack(side = LEFT, padx = 10, pady = 10)
-
-BoutonGo = Button(root, text ='deplacement', command = deplacement)
+BoutonGo = Button(root, text ='Rotation', command = rotation)
 BoutonGo.pack(side = LEFT, padx = 10, pady = 10)
 
 BoutonEffacer = Button(root, text ='Effacer', command = Effacer)
