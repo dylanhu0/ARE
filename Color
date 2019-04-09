@@ -3,7 +3,7 @@ print(x)
 
 def couleur(x):
     """
-    fzefzfzfezfezfze -> list[str]
+    
     """
 
     Color=[]
@@ -18,86 +18,4 @@ def couleur(x):
     return Color
 
 
-def couleur2(x):
-    """
-    fzefzfzfezfezfze -> list[str]
-    """
 
-    Color2=[]
-
-    if x>= 0 and x <= 0.1:
-        Color2.append('red')
-    elif x>0.10 and x <=0.20:
-        Color2.append('blue')
-    elif x>0.2:
-        Color2.append('black')
-    
-    return Color2
-
-
-def couleur3(x):
-    """
-    fzefzfzfezfezfze -> list[str]
-    """
-
-    Color3=[]
-
-    if x>= 0 and x <= 0.1:
-        Color3.append('red')
-    elif x>0.10 and x <=0.20:
-        Color3.append('blue')
-    elif x>0.2:
-        Color3.append('black')
-    
-    return Color3
-
-
-def couleur4(x):
-    """
-    fzefzfzfezfezfze -> list[str]
-    """
-
-    Color4=[]
-
-    if x>= 0 and x <= 0.1:
-        Color4.append('red')
-    elif x>0.10 and x <=0.20:
-        Color4.append('blue')
-    elif x>0.2:
-        Color4.append('black')
-    
-    return Color4
-
-
-def couleur5(x):
-    """
-    fzefzfzfezfezfze -> list[str]
-    """
-
-    Color5=[]
-
-    if x>= 0 and x <= 0.1:
-        Color5.append('red')
-    elif x>0.10 and x <=0.20:
-        Color5.append('blue')
-    elif x>0.2:
-        Color5.append('black')
-    
-    return Color5
-
-
-def couleur6(x):
-    """
-    fzefzfzfezfezfze -> list[str]
-    """
-
-    Color6=[]
-
-    if x>= 0 and x <= 0.1:
-        Color6.append('red')
-    elif x>0.10 and x <=0.20:
-        Color6.append('blue')
-    elif x>0.2:
-        Color6.append('black')
-    
-    return Color6
