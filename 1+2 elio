@@ -1,0 +1,65 @@
+from tkinter import *
+from random import randrange
+import math,random
+import cmath
+import numpy
+import time
+
+WIDTH = 200
+HEIGHT = 200
+
+root = Tk()
+
+root.title('Bouncing Ball')
+
+
+cau1=0
+ty1=0
+def nombre1():
+    global cau1, Arret 
+    Arret=False
+    if not(Arret):
+        cau1=5
+
+        print('1')
+
+
+def nombre2():
+    global ty1, Arret 
+    Arret=False
+    if not(Arret):        
+        ty1=5
+        print('2') 
+
+
+
+def go():
+
+    global cau1, ty1,Arret
+
+    Arret=False
+    if not(Arret):
+
+        if ty1==5 and cau1 ==5 :
+                 
+            print('3')
+        else:
+
+            print('no')
+    
+        
+BoutonGo = Button(root, text ='Go', command = go)
+BoutonGo.place(x=570, y=680)
+        
+        
+#Les causes d agression
+label = Label(root, text="Nombre1", bg="gold2")
+label.place(x=5,y=10)
+Checkbutton(root,text="1                      ",command=nombre1).place(x=5, y=40)
+
+#Les types d agression
+label = Label(root, text="Nombre2", bg="gold2")
+label.place(x=80,y=10)
+Checkbutton(root,text="2",command=nombre2).place(x=80,y=40)
+
+root.mainloop()
