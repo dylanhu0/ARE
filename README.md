@@ -49,10 +49,10 @@ Before lunching the program, you are invited to choose between one of the three 
 
 ## Paramètres pris en compte
 
-  Pour commencer, l'environnement nécessite dans un premier temps l'action de l'utilisateur pour générer une situation initiale qui évoluera dans un temps donné : 30 secondes dans notre cas où nous pouvons supposer que un mois réel vaut une seconde par exemple.
-  La situation initiale varie selon une cause et le(s) type(s) sélectionnés comme le montre le tableau ci dessous :
+    Pour commencer, l'environnement nécessite dans un premier temps l'action de l'utilisateur pour générer une situation initiale qui évoluera dans un temps donné : 30 secondes dans notre cas où nous pouvons supposer que un mois réel vaut une seconde par exemple.
+    La situation initiale varie selon une cause et le(s) type(s) sélectionnés comme le montre le tableau ci dessous :
 
 * Image : Tableau C1 T1 etc...
 
-  Au cours du temps, et cela à partir des conditions initiales imposées par l'utilisateurs, l'état psychologique de la victime empire ou s'améliore.</div>
+      Au cours du temps, et cela à partir des conditions initiales imposées par l'utilisateurs, l'état psychologique de la victime empire ou s'améliore.</div>
 
