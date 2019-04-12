@@ -17,8 +17,6 @@ Our project demonstrates, hypothetically, the effect of the victim when bullied.
 
 <p>&nbsp; </p>
 
-Before lunching the program, you are invited to choose between one of the three causes of bullies(button ‘Les causes d’agression’), one of the three  types of bullies(button ‘Les types d’agressions) and the number of friends you want to have in the simulation(the scale ‘Nombre d’amis’) then you press the button ‘Go’. With time you will be able to see how the parameters you chose will influence the victim. For exemple if you chose the third cause, the third type, with 0 friend ( It’s the worse scenario!) you will be able to see the victim changing to the color black in the end of the simulation which means depression. After you clear everything(button ‘effacer’) you can repeat the simulation with different parameters to see how the victim will react (color black stands for depression, color dark blue for a bad mood, color blue for a safe victim). In general, having a lot of friends, regardless to the cause or type, can make it hard for the victim to be in a depression.  
-
   
 # Modélisation
 
