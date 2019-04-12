@@ -11,8 +11,6 @@ Our project demonstrates, hypothetically, the effect of the victim when bullied.
 
 <p>&nbsp; </p>
 
-
-
 * Image : Harcelement avant ou apres le paragraphe
 
 <p>&nbsp; </p>
@@ -30,7 +28,6 @@ Our project demonstrates, hypothetically, the effect of the victim when bullied.
 <p>&nbsp; </p>
 
 <div align="justify">Dans l'environnement chaque individu est représenté par un cercle coloré selon son influence (positive ou négative) sur la victime :</div>
-<p>&nbsp; </p>
 
 * Rouge et rouge clair : harceleur
 * Vert : entourage de la victime
@@ -38,7 +35,6 @@ Our project demonstrates, hypothetically, the effect of the victim when bullied.
 <p>&nbsp; </p>
 
 <div align="justify">La victime est elle aussi représentée par un cercle, qui selon sa couleur décrit un état plus ou moins atteint par le harcèlement qu'elle subit :</div>
-<p>&nbsp; </p>
 
 * Cyan : peu atteint
 * Bleu : moyennement atteint
@@ -46,7 +42,6 @@ Our project demonstrates, hypothetically, the effect of the victim when bullied.
 <p>&nbsp; </p>
 
 <div align="justify">Afin de faciliter la lisibilité du modèle, nous avons organisé ces différents cercles de telle sorte à ce qu'ils suivent une orbite autour de la victime.</div>
-<p>&nbsp; </p>
 
 * Image : Organisation des cercles
 
@@ -55,7 +50,6 @@ Our project demonstrates, hypothetically, the effect of the victim when bullied.
 ## Paramètres pris en compte
 
 <div align="justify">Pour commencer, l'environnement nécessite dans un premier temps l'action de l'utilisateur pour générer une situation initiale qui évoluera dans un temps donné : 30 secondes dans notre cas où nous pouvons supposer que un mois réel vaut une seconde par exemple. La situation initiale varie selon une cause et le(s) type(s) sélectionnés comme le montre le tableau ci dessous :</div>
-<p>&nbsp; </p>
 
 * Image : Tableau C1 T1 etc...
 
