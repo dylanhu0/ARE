@@ -7,13 +7,13 @@ Generally, people who are bullied have one or more risk factors like mental diso
   
 <p>&nbsp; </p>
 
-According to NSCS(National School Climate Survey) 35.3% of students with behavioral and emotional disorders, 25% of African-American students, 74.1% of LGBT students were all bullied.
-Research has found that children and adolescents who have been bullied can experience negative psychological(depression, anxiety), physical(being injured from a physical attack), and academic effects(impact on grades) .
-However, inclusion and friendship can have extremely positive effects on kids and teens lives and their mental states. Making friends is a social skill that is important, not for popularity purposes, but purely because friendship can provide many benefits and lower the risk of getting bullied.
+Our project demonstrates, hypothetically, the effect of the victim when bullied. With Tkinter, we were able to create a small environnement representing the scene. Each person is represented with a small circle: The victim with a popping circle, the bullies with a red circle, the friends with a green circle and people who don’t take actions are represented with a white circle.
 
 <p>&nbsp; </p>
 
-Our project demonstrates, hypothetically, the effect of the victim when bullied. With Tkinter, we were able to create a small environnement representing the scene. Each person is represented with a small circle: The victim with a popping circle, the bullies with a red circle, the friends with a green circle and people who don’t take actions are represented with a white circle.
+
+
+* Image : Harcelement avant ou apres le paragraphe
 
 <p>&nbsp; </p>
 
