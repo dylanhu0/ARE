@@ -35,7 +35,7 @@ Our project demonstrates, hypothetically, the effect of the victim when bullied.
 * Rouge et rouge clair : harceleur
 * Vert : entourage de la victime
 * Blanc : individu neutre
-
+<p>&nbsp; </p>
 
 <div align="justify">La victime est elle aussi représentée par un cercle, qui selon sa couleur décrit un état plus ou moins atteint par le harcèlement qu'elle subit :</div>
 <p>&nbsp; </p>
@@ -43,13 +43,14 @@ Our project demonstrates, hypothetically, the effect of the victim when bullied.
 * Cyan : peu atteint
 * Bleu : moyennement atteint
 * Noir : très atteint
+<p>&nbsp; </p>
 
 <div align="justify">Afin de faciliter la lisibilité du modèle, nous avons organisé ces différents cercles de telle sorte à ce qu'ils suivent une orbite autour de la victime.</div>
 <p>&nbsp; </p>
 
 * Image : Organisation des cercles
 
-
+<p>&nbsp; </p>
 
 ## Paramètres pris en compte
 
