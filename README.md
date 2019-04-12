@@ -26,22 +26,22 @@ Before lunching the program, you are invited to choose between one of the three 
 ## Le modèle d'étude
 
 
+ 
+  Dans le but de modéliser le harcèlement, nous avons aménagé un environnement à l'aide de Tkinter. Nous avons simplifié le phénomène pour créer un modèle d'étude qui présente une victime, son (ou ses) harceleur(s), son entourage et des personnes neutres. En plus de cela, une échelle de temps a été introduite pour témoigner de l'évolution.
 
-Dans le but de modéliser le harcèlement, nous avons aménagé un environnement à l'aide de Tkinter. Nous avons simplifié le phénomène pour créer un modèle d'étude qui présente une victime, son (ou ses) harceleur(s), son entourage et des personnes neutres. En plus de cela, une échelle de temps a été introduite pour témoigner de l'évolution.
-
-Dans l'environnement chaque individu est représenté par un cercle coloré selon son influence (positive ou négative) sur la victime :     
+  Dans l'environnement chaque individu est représenté par un cercle coloré selon son influence (positive ou négative) sur la victime :     
 
 * Rouge et rouge clair : harceleur
 * Vert : entourage de la victime
 * Blanc : individu neutre
 
-La victime est elle aussi représentée par un cercle, qui selon sa couleur décrit un état plus ou moins atteint par le harcèlement qu'elle subit :
+  La victime est elle aussi représentée par un cercle, qui selon sa couleur décrit un état plus ou moins atteint par le harcèlement qu'elle subit :
 
 * Cyan : peu atteint
 * Bleu : moyennement atteint
 * Noir : très atteint
 
-Afin de faciliter la lisibilité du modèle, nous avons organisé ces différents cercles de telle sorte à ce qu'ils suivent une orbite autour de la victime.
+  Afin de faciliter la lisibilité du modèle, nous avons organisé ces différents cercles de telle sorte à ce qu'ils suivent une orbite autour de la victime.
 
 * Image : Organisation des cercles
 
@@ -49,10 +49,10 @@ Afin de faciliter la lisibilité du modèle, nous avons organisé ces différent
 
 ## Paramètres pris en compte
 
-Pour commencer, l'environnement nécessite dans un premier temps l'action de l'utilisateur pour générer une situation initiale qui évoluera dans un temps donné : 30 secondes dans notre cas où nous pouvons supposer que un mois réel vaut une seconde par exemple.
-La situation initiale varie selon une cause et le(s) type(s) sélectionnés comme le montre le tableau ci dessous :
+  Pour commencer, l'environnement nécessite dans un premier temps l'action de l'utilisateur pour générer une situation initiale qui évoluera dans un temps donné : 30 secondes dans notre cas où nous pouvons supposer que un mois réel vaut une seconde par exemple.
+  La situation initiale varie selon une cause et le(s) type(s) sélectionnés comme le montre le tableau ci dessous :
 
 * Image : Tableau C1 T1 etc...
 
-Au cours du temps, et cela à partir des conditions initiales imposées par l'utilisateurs, l'état psychologique de la victime empire ou s'améliore.</div>
+  Au cours du temps, et cela à partir des conditions initiales imposées par l'utilisateurs, l'état psychologique de la victime empire ou s'améliore.</div>
 
