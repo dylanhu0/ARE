@@ -26,7 +26,8 @@ Our project demonstrates, hypothetically, the effect of the victim when bullied.
 
 
  
-<div align="justify">Dans le but de modéliser le harcèlement, nous avons aménagé un environnement à l'aide de Tkinter. Nous avons simplifié le phénomène pour créer un modèle d'étude qui présente une victime, son (ou ses) harceleur(s), son entourage et des personnes neutres. En plus de cela, une échelle de temps a été introduite pour témoigner de l'évolution.   </div>
+<div align="justify">Dans le but de modéliser le harcèlement, nous avons aménagé un environnement à l'aide de Tkinter. Nous avons simplifié le phénomène pour créer un modèle d'étude qui présente une victime, son (ou ses) harceleur(s), son entourage et des personnes neutres. En plus de cela, une échelle de temps a été introduite pour témoigner de l'évolution.</div>
+<p>&nbsp; </p>
 
 <div align="justify">Dans l'environnement chaque individu est représenté par un cercle coloré selon son influence (positive ou négative) sur la victime :</div>
 <p>&nbsp; </p>
@@ -52,8 +53,7 @@ Our project demonstrates, hypothetically, the effect of the victim when bullied.
 
 ## Paramètres pris en compte
 
-<div align="justify">Pour commencer, l'environnement nécessite dans un premier temps l'action de l'utilisateur pour générer une situation initiale qui évoluera dans un temps donné : 30 secondes dans notre cas où nous pouvons supposer que un mois réel vaut une seconde par exemple.  </div>
-<div align="justify">La situation initiale varie selon une cause et le(s) type(s) sélectionnés comme le montre le tableau ci dessous :</div>
+<div align="justify">Pour commencer, l'environnement nécessite dans un premier temps l'action de l'utilisateur pour générer une situation initiale qui évoluera dans un temps donné : 30 secondes dans notre cas où nous pouvons supposer que un mois réel vaut une seconde par exemple. La situation initiale varie selon une cause et le(s) type(s) sélectionnés comme le montre le tableau ci dessous :</div>
 <p>&nbsp; </p>
 
 * Image : Tableau C1 T1 etc...
