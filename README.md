@@ -1,4 +1,6 @@
 # Description du projet
+
+
 <div align="justify">Bullying is unwanted, aggressive behavior among school aged children that involves a real or perceived power imbalance. The behavior is repeated, or has the potential to be repeated, over time. Both kids who are bullied and who bully others may have serious, lasting problems.
 Bullying can take on many forms which are just as emotionally and psychologically damaging as physical intimidation and harassment. There are three general forms of bullying: Verbal bullying, Physical bullying and cyberbullying.
 Generally, people who are bullied have one or more risk factors like mental disorder, different race or ethnicity, different sexual orientation…</div>
@@ -52,5 +54,5 @@ La situation initiale varie selon une cause et le(s) type(s) sélectionnés comm
 
 * Image : Tableau C1 T1 etc...
 
-Au cours du temps, et cela à partir des conditions initiales imposées par l'utilisateurs, l'état psychologique de la victime empire ou s'améliore.
+Au cours du temps, et cela à partir des conditions initiales imposées par l'utilisateurs, l'état psychologique de la victime empire ou s'améliore.</div>
 
