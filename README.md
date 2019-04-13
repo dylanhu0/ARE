@@ -61,9 +61,6 @@ Generally, people who are bullied have one or more risk factors like mental diso
 
 <p>&nbsp; </p>
 
-<div align="justify">Les types sont classés du moins répandu au plus courant.</div>
-
-<p>&nbsp; </p>
 
 ## La dynamique du système
 
