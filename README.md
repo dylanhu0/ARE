@@ -71,7 +71,7 @@ Generally, people who are bullied have one or more risk factors like mental diso
 ## La dynamique du système
 
 
-<div align="justify">Une fois la situation initiale créée, le groupe d'harceleur apparait au lancement du programme qui va s'attaquer au bout de quelques secondes à un individu qui devient la victime. Au cours du temps, son état peut s'améliorer ou s'empirer. Pour prévenir de possibles changements d'état, ceux-ci sont précédés d'un état "intermédiaire" illustré graphiquement par une variation rapide de la couleur de la victime.  </div>
+<div align="justify">Une fois la situation initiale créée, le groupe d'harceleur apparait au lancement du programme. Au bout de quelques secondes, le groupe s’attaque à un individu qui devient alors la victime.. Au cours du temps, son état peut s'améliorer ou s'empirer. Pour prévenir de possibles changements d'état, ceux-ci sont précédés d'un état "intermédiaire" illustré graphiquement par une variation rapide de la couleur de la victime.  </div>
  
  
 
@@ -83,7 +83,7 @@ Generally, people who are bullied have one or more risk factors like mental diso
 
 
 
-<div align="justify">Le groupe d'harceleurs sera alors composé de 2 individus. Lorsqu'il s'attaque à la victime, cette dernière apparaît et est tout d'abord dans l'état "peu atteinte" :  </div>     
+<div align="justify">Le groupe d'harceleurs est alors composé de 2 individus. Lorsqu'il s'attaque à la victime, cette dernière apparaît et est tout d'abord dans l'état "peu atteinte" :  </div>     
 
 
 
@@ -91,7 +91,7 @@ Generally, people who are bullied have one or more risk factors like mental diso
 
 <p>&nbsp; </p>
 
-<div align="justify">Ensuite la victime entre dans  un état "moyennement atteint" en passant par l'état "intermédiaire":  </div>   
+<div align="justify">Ensuite la victime passe d'un état "peut atteint" à un état "moyennement atteint":  </div>   
 
 
 
