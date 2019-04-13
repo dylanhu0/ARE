@@ -46,7 +46,9 @@ Generally, people who are bullied have one or more risk factors like mental diso
 <p>&nbsp; </p>
 
 <div align="justify">Afin de faciliter la lisibilité du modèle, nous avons organisé ces différents cercles de telle sorte à ce qu'ils suivent une orbite prédefinie autour de la victime selon son statut dans l'environnement (harceleurs, neutre ou amis).</div>
-On crée le cercle "Balle" puis on lui donne une vitesse pour enfin le faire apparaître et suivre l'orbite souhaitée à l'aide de coordonnées défini préalablement.
+
+<p>&nbsp; </p>
+<div align="justify">Pour cela, on crée le cercle "Balle" puis on lui donne une vitesse pour enfin le faire apparaître et suivre l'orbite souhaitée à l'aide de coordonnées défini préalablement. On applique ce concept aux différents cercles présent dans l'environnement.</div>
 <p>&nbsp; </p>
 
     1. Balle = canvas.create_oval(X,Y,X,Y,fill='white')
