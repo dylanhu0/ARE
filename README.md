@@ -80,7 +80,7 @@ Generally, people who are bullied have one or more risk factors like mental diso
 
 
 
-![Lorsqu'il s'attaque à la victime, cette dernière est tout d'abord "peu atteinte"](https://www.cjoint.com/doc/19_04/IDnuzZd2H46_t5.jpg "Apparition de la victime")  
+![Lorsqu'il s'attaque à la victime, cette dernière est tout d'abord peu atteinte](https://www.cjoint.com/doc/19_04/IDnuzZd2H46_t5.jpg "Apparition de la victime")  
 
 
 
