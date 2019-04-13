@@ -69,14 +69,19 @@ On crée le cercle "Balle" puis on lui donne une vitesse pour enfin le faire app
 ## La dynamique du système
 
 
-<div align="justify">Une fois la situation initiale créée, le groupe d'harceleur apparait au lancement du programme qui va s'attaquer au bout de quelques secondes à un individu qui devient la victime. Au cours du temps, son état peut s'améliorer ou s'empirer.Par exemple, l'utilisateur sélectionne la cause "Origine, ethnie", le type d'harcèlement "Verbal" et le nombre d'amis "1". Le groupe d'harceleurs sera alors composé de 2 individus.</div>
+<div align="justify">Une fois la situation initiale créée, le groupe d'harceleur apparait au lancement du programme qui va s'attaquer au bout de quelques secondes à un individu qui devient la victime. Au cours du temps, son état peut s'améliorer ou s'empirer. Pour prévenir de possibles changements d'état, ceux-ci sont précédés d'un état "intermédiaire" illustré graphiquement par une variation rapide de la couleur de la victime.  </div>
+ 
+ 
+
+
+<div align="justify">Dans l'exemple ci-dessous, l'utilisateur à sélectionné la cause "Origine, ethnie", le type d'harcèlement "Verbal" et le nombre d'amis "1".</div>
 
 <p>&nbsp; </p>
 
 
 
 
-<div align="justify">Lorsqu'il s'attaque à la victime, cette dernière est tout d'abord "peu atteinte" :</div>  
+<div align="justify">Le groupe d'harceleurs sera alors composé de 2 individus. Lorsqu'il s'attaque à la victime, cette dernière apparaît et est tout d'abord dans l'état "peu atteinte" :  </div>     
 
 
 
@@ -84,7 +89,7 @@ On crée le cercle "Balle" puis on lui donne une vitesse pour enfin le faire app
 
 <p>&nbsp; </p>
 
-<div align="justify">Puis entre dans un état intermédiare pour ensuite entrer dans un état "moyennement atteint" :</div>
+<div align="justify">Ensuite la victime entre dans  un état "moyennement atteint" en passant par l'état "intermédiaire":  </div>   
 
 
 
@@ -92,7 +97,9 @@ On crée le cercle "Balle" puis on lui donne une vitesse pour enfin le faire app
 
 <p>&nbsp; </p>
 
-<div align="justify">Une fois son entourage apparu, un nouvel état intermédiaire est appliqué à la victime pour enfin nous afficher son état final. Dans cet exemple,  le nombre d'amis étant de 3, son état s'empire et la victime devient "très atteint" :</div>
+
+
+<div align="justify">Une fois son entourage apparu, un nouvel état peut s'appliquer à la victime. Dans cet exemple,  le nombre d'amis n'étant pas à la faveur de la victime, son état empire. Elle passe donc de l'état "moyennement atteint" à l'état "très atteint" :   </div>   
 
 
 
