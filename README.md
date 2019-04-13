@@ -91,7 +91,9 @@ Generally, people who are bullied have one or more risk factors like mental diso
 <div align="justify">Une fois son entourage apparu, un nouvel état intermédiaire est appliqué à la victime pour enfin nous afficher son état final. Dans cet exemple,  le nombre d'amis étant de 3, son état s'empire et la victime devient "très atteint" :</div>
 
 
-
+<p align="center">
+  <img width="460" height="300" src="https://www.cjoint.com/doc/19_04/IDnuAuUD266_t27.jpg "Apparation de l'entourage et résultat sur la victime">
+</p>
 ![](https://www.cjoint.com/doc/19_04/IDnuAuUD266_t27.jpg "Apparation de l'entourage et résultat sur la victime")  
 
 
