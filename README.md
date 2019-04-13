@@ -1,6 +1,4 @@
 
-* Image : Harcelement avant ou apres le paragraphe
-
 
 
 ![](https://www.bayard-jeunesse.com/wp-content/uploads/2018/05/ACT-CAR-Harcelement.jpg)
