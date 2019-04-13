@@ -1,11 +1,6 @@
 
 * Image : Harcelement avant ou apres le paragraphe
 
-mkdir assets
-cp path/to/image.png ./assets/
-![useful image]({{ site.url }}/assets/image.png)
-
-![GitHub Logo](/images/logo.png)
 
 
 ![](https://www.bayard-jeunesse.com/wp-content/uploads/2018/05/ACT-CAR-Harcelement.jpg)
