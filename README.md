@@ -95,7 +95,7 @@ On crée le cercle "Balle" puis on lui donne une vitesse pour enfin le faire app
 
 
 <p align="center">
-                      <img width="460" height="300" src="https://www.cjoint.com/doc/19_04/IDnuAuUD266_t27.jpg">
+ <img width="460" height="300" src="https://www.cjoint.com/doc/19_04/IDnuAuUD266_t27.jpg"> <img width="460" height="300" src="https://www.cjoint.com/doc/19_04/IDnuAuUD266_t27.jpg">
 </p>
 ![](https://www.cjoint.com/doc/19_04/IDnuAuUD266_t27.jpg "Apparation de l'entourage et résultat sur la victime")  
 
