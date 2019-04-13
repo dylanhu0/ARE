@@ -405,6 +405,9 @@ def deplacement():
                 canvas.coords(BalleCy3,XC+XCy3-RAYON,YC+YCy3-RAYON,XC+XCy3+RAYON,YC+YCy3+RAYON)
             if (C2T3 == 23 and int(Valeur.get()) == 3) or (C3T2 == 32 and int(Valeur.get()) == 3) or (C3T3 == 33 and int(Valeur.get()) == 4):
                 canvas.coords(BalleB2,XC+XB2-RAYON,YC+YB2-RAYON,XC+XB2+RAYON,YC+YB2+RAYON)
+            else:
+                canvas.coords(BalleCy3,XC+XCy3-RAYON,YC+YCy3-RAYON,XC+XCy3+RAYON,YC+YCy3+RAYON)
+                
         root.update()
         time.sleep(0.04)
         
