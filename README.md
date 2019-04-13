@@ -62,6 +62,9 @@ Generally, people who are bullied have one or more risk factors like mental diso
 <p>&nbsp; </p>
 
 
+
+<p>&nbsp; </p>
+
 ## La dynamique du système
 
 
@@ -82,8 +85,6 @@ Generally, people who are bullied have one or more risk factors like mental diso
 
 
 ____________________________![](https://www.cjoint.com/doc/19_04/IDnuzZd2H46_t5.jpg "Apparition de la victime")
-
-
 
 
 
