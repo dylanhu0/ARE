@@ -48,9 +48,12 @@ XV5=90
     #Pour la victime 
 XCy = 1
 XCy2 = 1
+XCy3 = 1
 XB = 1
+XB2 = 1
 XN  = 1
-X3c = 1
+X3c1 = 1
+X3c2 = 1
     #Y
 YR1=70
 YR2=70
@@ -66,10 +69,13 @@ YV4=90
 YV5=90
     #Pour la victime 
 YCy = 1
-YCy2 = 1 
+YCy2 = 1
+YCy3 = 1
 YB = 1
+YB2 = 1
 YN  = 1
-Y3c= 1
+Y3c1 = 1
+Y3c2 = 1
 #Le milieu
 XC=LARGEUR/2
 YC=HAUTEUR/2
@@ -137,7 +143,8 @@ def type3():
     if not(Arret):        
         ty3=3
         print('type3')
-
+        
+#Permet de savoir la couleur que doit prendre la victime pour une cause et un type a t=15
 c1t1=0
 c1t2=0
 c1t3=0
@@ -148,11 +155,20 @@ c3t1=0
 c3t2=0
 c3t3=0
 
-
+#Permet de savoir la couleur que doit prendre la victime pour une cause et un type apres appartion des amis a t=27
+C1T1=0
+C1T2=0
+C1T3=0
+C2T1=0
+C2T2=0
+C2T3=0
+C3T1=0
+C3T2=0
+C3T3=0
 
 #Deplacement
 def deplacement():
-    global XR1,XR2,XR3,XRC,XBl1,XBl2,XBl3,XV1,XV2,XV3,XV4,XV5,XCy,XCy2,XBc,XN,X3c,YR1,YR2,YR3,YRC,YBl1,YBl2,YBl3,YV1,YV2,YV3,YV4,YV5,YCy,XCy2,YB,YN,Y3c,DX,DY,RAYON,LARGEUR,HAUTEUR, Arret
+    global XR1,XR2,XR3,XRC,XBl1,XBl2,XBl3,XV1,XV2,XV3,XV4,XV5,XCy,XCy2,XCy3,XB,XB2,XBc,XN,X3c1,X3c2,YR1,YR2,YR3,YRC,YBl1,YBl2,YBl3,YV1,YV2,YV3,YV4,YV5,YCy,XCy2,YCy3,YB,YB2,YN,Y3c1,Y3c2,DX,DY,RAYON,LARGEUR,HAUTEUR, Arret
 #Initialisation des balles
     
         #Balles rouge
@@ -174,14 +190,24 @@ def deplacement():
     
         #Balle cyan initiale
     BalleCy = canvas.create_oval(XCy-RAYON,YCy-RAYON,XCy+RAYON,YCy+RAYON,width=1,fill='cyan')
-    #Balle 3 couleurs
-    Balle3c = canvas.create_oval(X3c-RAYON,Y3c-RAYON,X3c+RAYON,Y3c+RAYON,width=1,fill='blue')
+        #Balle 3 couleurs
+    Balle3c1 = canvas.create_oval(X3c1-RAYON,Y3c1-RAYON,X3c1+RAYON,Y3c1+RAYON,width=1,fill='blue')
         #Balle bleu 
     BalleB = canvas.create_oval(XB-RAYON,YB-RAYON,XB+RAYON,YB+RAYON,width=1,fill='blue')
         #Balle noir
     BalleN = canvas.create_oval(XN-RAYON,YN-RAYON,XN+RAYON,YN+RAYON,width=1,fill='black')
-        #Balle cyan2
+    #Possibilite de l avoir a t =15
+        #Balle cyan2 
     BalleCy2 = canvas.create_oval(XCy2-RAYON,YCy2-RAYON,XCy2+RAYON,YCy2+RAYON,width=1,fill='cyan')
+        #Balle 3 couleurs 2
+    Balle3c2 = canvas.create_oval(X3c2-RAYON,Y3c2-RAYON,X3c2+RAYON,Y3c2+RAYON,width=1,fill='blue')
+    #Possibilite de l avoir a t=27  
+        #Balle cyan3 
+    BalleCy3 = canvas.create_oval(XCy3-RAYON,YCy3-RAYON,XCy3+RAYON,YCy3+RAYON,width=1,fill='cyan')
+        #Balle bleu 
+    BalleB2 = canvas.create_oval(XB2-RAYON,YB2-RAYON,XB2+RAYON,YB2+RAYON,width=1,fill='blue')
+    
+        
     
     Arret=False
     while not(Arret):
@@ -235,7 +261,7 @@ def deplacement():
         YV5=VV5.imag
         
         #Affichage
-        global cau1,cau2,cau3,ty1,ty2,ty3,c1t1,c1t2,c1t3,c2t1,c2t2,c2t3,c3t1,c3t2,c3t3
+        global cau1,cau2,cau3,ty1,ty2,ty3,c1t1,c1t2,c1t3,c2t1,c2t2,c2t3,c3t1,c3t2,c3t3,C1T1,C1T2,C1T3,C2T1,C2T2,C2T3,C3T1,C3T2,C3T3
         if cau1==1:
             if ty1 ==1:
                 canvas.coords(BalleR1,XC+XR1-RAYON,YC+YR1-RAYON,XC+XR1+RAYON,YC+YR1+RAYON)
@@ -243,18 +269,21 @@ def deplacement():
                 canvas.coords(BalleBl2,XC+XBl2-RAYON,YC+YBl2-RAYON,XC+XBl2+RAYON,YC+YBl2+RAYON)
                 canvas.coords(BalleBl3,XC+XBl3-RAYON,YC+YBl3-RAYON,XC+XBl3+RAYON,YC+YBl3+RAYON)
                 c1t1=11
+                C1T1=11
             if ty2 ==2:
                 canvas.coords(BalleR1,XC+XR1-RAYON,YC+YR1-RAYON,XC+XR1+RAYON,YC+YR1+RAYON)
                 canvas.coords(BalleRC,XC+XRC-RAYON,YC+YRC-RAYON,XC+XRC+RAYON,YC+YRC+RAYON)
                 canvas.coords(BalleBl1,XC+XBl1-RAYON,YC+YBl1-RAYON,XC+XBl1+RAYON,YC+YBl1+RAYON)
                 canvas.coords(BalleBl2,XC+XBl2-RAYON,YC+YBl2-RAYON,XC+XBl2+RAYON,YC+YBl2+RAYON)
                 c1t2=12
+                C1T2=12
             if ty3 ==3:
                 canvas.coords(BalleR1,XC+XR1-RAYON,YC+YR1-RAYON,XC+XR1+RAYON,YC+YR1+RAYON)
                 canvas.coords(BalleR2,XC+XR2-RAYON,YC+YR2-RAYON,XC+XR2+RAYON,YC+YR2+RAYON)
                 canvas.coords(BalleBl1,XC+XBl1-RAYON,YC+YBl1-RAYON,XC+XBl1+RAYON,YC+YBl1+RAYON)
                 canvas.coords(BalleBl2,XC+XBl2-RAYON,YC+YBl2-RAYON,XC+XBl2+RAYON,YC+YBl2+RAYON)
                 c1t3=13
+                C1T3=13
                 
         if cau2==2:
             if ty1 ==1:
@@ -262,19 +291,22 @@ def deplacement():
                 canvas.coords(BalleRC,XC+XRC-RAYON,YC+YRC-RAYON,XC+XRC+RAYON,YC+YRC+RAYON)
                 canvas.coords(BalleBl1,XC+XBl1-RAYON,YC+YBl1-RAYON,XC+XBl1+RAYON,YC+YBl1+RAYON)
                 canvas.coords(BalleBl2,XC+XBl2-RAYON,YC+YBl2-RAYON,XC+XBl2+RAYON,YC+YBl2+RAYON)
-                c2t1 =21
+                c2t1=21
+                C2T1=21
             if ty2 ==2:
                 canvas.coords(BalleR1,XC+XR1-RAYON,YC+YR1-RAYON,XC+XR1+RAYON,YC+YR1+RAYON)
                 canvas.coords(BalleR2,XC+XR2-RAYON,YC+YR2-RAYON,XC+XR2+RAYON,YC+YR2+RAYON)
                 canvas.coords(BalleBl1,XC+XBl1-RAYON,YC+YBl1-RAYON,XC+XBl1+RAYON,YC+YBl1+RAYON)
                 canvas.coords(BalleBl2,XC+XBl2-RAYON,YC+YBl2-RAYON,XC+XBl2+RAYON,YC+YBl2+RAYON)
                 c2t2=22
+                C2T2=22
             if ty3 ==3:
                 canvas.coords(BalleR1,XC+XR1-RAYON,YC+YR1-RAYON,XC+XR1+RAYON,YC+YR1+RAYON)
                 canvas.coords(BalleR2,XC+XR2-RAYON,YC+YR2-RAYON,XC+XR2+RAYON,YC+YR2+RAYON)
                 canvas.coords(BalleRC,XC+XRC-RAYON,YC+YRC-RAYON,XC+XRC+RAYON,YC+YRC+RAYON)
                 canvas.coords(BalleBl1,XC+XBl1-RAYON,YC+YBl1-RAYON,XC+XBl1+RAYON,YC+YBl1+RAYON) 
                 c2t3=23
+                C2T3=23
         if cau3==3:
             if ty1 ==1:
                 canvas.coords(BalleR1,XC+XR1-RAYON,YC+YR1-RAYON,XC+XR1+RAYON,YC+YR1+RAYON)
@@ -282,27 +314,30 @@ def deplacement():
                 canvas.coords(BalleBl1,XC+XBl1-RAYON,YC+YBl1-RAYON,XC+XBl1+RAYON,YC+YBl1+RAYON)
                 canvas.coords(BalleBl2,XC+XBl2-RAYON,YC+YBl2-RAYON,XC+XBl2+RAYON,YC+YBl2+RAYON)
                 c3t1=31
+                C3T1=31
             if ty2 ==2:
                 canvas.coords(BalleR1,XC+XR1-RAYON,YC+YR1-RAYON,XC+XR1+RAYON,YC+YR1+RAYON)
                 canvas.coords(BalleR2,XC+XR2-RAYON,YC+YR2-RAYON,XC+XR2+RAYON,YC+YR2+RAYON)
                 canvas.coords(BalleRC,XC+XRC-RAYON,YC+YRC-RAYON,XC+XRC+RAYON,YC+YRC+RAYON)
                 canvas.coords(BalleBl1,XC+XBl1-RAYON,YC+YBl1-RAYON,XC+XBl1+RAYON,YC+YBl1+RAYON)
                 c3t2=32
+                C3T2=32
             if ty3 ==3:
                 canvas.coords(BalleR1,XC+XR1-RAYON,YC+YR1-RAYON,XC+XR1+RAYON,YC+YR1+RAYON)
                 canvas.coords(BalleR2,XC+XR2-RAYON,YC+YR2-RAYON,XC+XR2+RAYON,YC+YR2+RAYON)
                 canvas.coords(BalleR3,XC+XR3-RAYON,YC+YR3-RAYON,XC+XR3+RAYON,YC+YR3+RAYON)
                 canvas.coords(BalleBl1,XC+XBl1-RAYON,YC+YBl1-RAYON,XC+XBl1+RAYON,YC+YBl1+RAYON)
                 c3t3=33
+                C3T3=33
         #En fonction du temps
         #Apparition de la victime 
         if t == 5:
             canvas.coords(BalleCy,XC+XCy-RAYON,YC+YCy-RAYON,XC+XCy+RAYON,YC+YCy+RAYON)
         #Variation rapide des couleurs de la victime    
-        if t > 8 and t<15:
+        if t >= 8 and t<15:
             colors=["cyan","blue","black"]
-            canvas.itemconfig(Balle3c, fill=numpy.random.choice(colors))
-            canvas.coords(Balle3c,XC+X3c-RAYON,YC+Y3c-RAYON,XC+X3c+RAYON,YC+Y3c+RAYON)
+            canvas.itemconfig(Balle3c1, fill=numpy.random.choice(colors))
+            canvas.coords(Balle3c1,XC+X3c1-RAYON,YC+Y3c1-RAYON,XC+X3c1+RAYON,YC+Y3c1+RAYON)
         #Changement de couleur de la victime
         if t == 15:
             if c1t1== 11:
@@ -333,7 +368,7 @@ def deplacement():
                 canvas.coords(BalleN,XC+XN-RAYON,YC+YN-RAYON,XC+XN+RAYON,YC+YN+RAYON)
                 c3t3=0    
         #Temps des amis
-        if t > 20:
+        if t >= 20:
             if int(Valeur.get()) == 1:
                 canvas.coords(BalleV1,XC+XV1-RAYON,YC+YV1-RAYON,XC+XV1+RAYON,YC+YV1+RAYON)
             
@@ -358,7 +393,18 @@ def deplacement():
                 canvas.coords(BalleV3,XC+XV3-RAYON,YC+YV3-RAYON,XC+XV3+RAYON,YC+YV3+RAYON)
                 canvas.coords(BalleV4,XC+XV4-RAYON,YC+YV4-RAYON,XC+XV4+RAYON,YC+YV4+RAYON)
                 canvas.coords(BalleV5,XC+XV5-RAYON,YC+YV5-RAYON,XC+XV5+RAYON,YC+YV5+RAYON)
-    
+        #Variation rapide des couleurs de la victime2
+        if t > 22 and t < 27:
+            colors=["cyan","blue","black"]
+            canvas.itemconfig(Balle3c2, fill=numpy.random.choice(colors))
+            canvas.coords(Balle3c2,XC+X3c2-RAYON,YC+Y3c2-RAYON,XC+X3c2+RAYON,YC+Y3c2+RAYON)
+            
+        #Changement de couleur de la victime selon le nombre d’amis et le nombre d'harceleur  
+        if t >=27:
+            if (C1T3 == 13 and int(Valeur.get()) == 3) or (C2T2 == 22 and int(Valeur.get()) == 4) or (C2T3 == 23 and int(Valeur.get()) == 4) or (C3T1 == 31 and int(Valeur.get()) == 3) or (C3T2 == 32 and int(Valeur.get()) == 4) or (C3T3 == 33 and int(Valeur.get()) == 5):
+                canvas.coords(BalleCy3,XC+XCy3-RAYON,YC+YCy3-RAYON,XC+XCy3+RAYON,YC+YCy3+RAYON)
+            if (C2T3 == 23 and int(Valeur.get()) == 3) or (C3T2 == 32 and int(Valeur.get()) == 3) or (C3T3 == 33 and int(Valeur.get()) == 4):
+                canvas.coords(BalleB2,XC+XB2-RAYON,YC+YB2-RAYON,XC+XB2+RAYON,YC+YB2+RAYON)
         root.update()
         time.sleep(0.04)
         
