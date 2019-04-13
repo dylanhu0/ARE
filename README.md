@@ -13,7 +13,7 @@ Bullying can take on many forms which are just as emotionally and psychologicall
 Generally, people who are bullied have one or more risk factors like mental disorder, different race or ethnicity, different sexual orientation…</div>
 
 
-<div align="justify">Our project creates a small environnement that shows us the evolution of the victim's condition by adding bullies and/or friends.</div>
+<div align="justify">Our project creates a small environnement that shows us the evolution of the victim's condition according to an initial situation. The aim is to represents how the victim's condition can evolve by adding harassers or friends.</div>
 
 <p>&nbsp; </p>
 
@@ -76,15 +76,8 @@ Generally, people who are bullied have one or more risk factors like mental diso
 
 
 
-<p align="center"><img src=https://www.cjoint.com/doc/19_04/IDnuzOCxPW6_t0.jpg "Illustration conditions initiales"></p>
 
-<div align="center"><img src= https://www.cjoint.com/doc/19_04/IDnuzOCxPW6_t0.jpg "Illustration conditions initiales" /></div> 
-
----------------------------![](https://www.cjoint.com/doc/19_04/IDnuzOCxPW6_t0.jpg "Groupe d'harceleurs")
-
-
-
-____________________________![](https://www.cjoint.com/doc/19_04/IDnuzZd2H46_t5.jpg "Apparition de la victime")
+![](https://www.cjoint.com/doc/19_04/IDnuzZd2H46_t5.jpg "Apparition de la victime")  aaaaaaaaaaaaaaaaaaaaaaaaa
 
 
 
