@@ -52,6 +52,7 @@ XCy3 = 1
 XB = 1
 XB2 = 1
 XN  = 1
+XN2 = 1
 X3c1 = 1
 X3c2 = 1
     #Y
@@ -74,6 +75,7 @@ YCy3 = 1
 YB = 1
 YB2 = 1
 YN  = 1
+YN2 = 1
 Y3c1 = 1
 Y3c2 = 1
 #Le milieu
@@ -168,7 +170,7 @@ C3T3=0
 
 #Deplacement
 def deplacement():
-    global XR1,XR2,XR3,XRC,XBl1,XBl2,XBl3,XV1,XV2,XV3,XV4,XV5,XCy,XCy2,XCy3,XB,XB2,XBc,XN,X3c1,X3c2,YR1,YR2,YR3,YRC,YBl1,YBl2,YBl3,YV1,YV2,YV3,YV4,YV5,YCy,XCy2,YCy3,YB,YB2,YN,Y3c1,Y3c2,DX,DY,RAYON,LARGEUR,HAUTEUR, Arret
+    global XR1,XR2,XR3,XRC,XBl1,XBl2,XBl3,XV1,XV2,XV3,XV4,XV5,XCy,XCy2,XCy3,XB,XB2,XBc,XN,XN2,X3c1,X3c2,YR1,YR2,YR3,YRC,YBl1,YBl2,YBl3,YV1,YV2,YV3,YV4,YV5,YCy,XCy2,YCy3,YB,YB2,YN,YN2,Y3c1,Y3c2,DX,DY,RAYON,LARGEUR,HAUTEUR, Arret
 #Initialisation des balles
     
         #Balles rouge
@@ -206,6 +208,8 @@ def deplacement():
     BalleCy3 = canvas.create_oval(XCy3-RAYON,YCy3-RAYON,XCy3+RAYON,YCy3+RAYON,width=1,fill='cyan')
         #Balle bleu 
     BalleB2 = canvas.create_oval(XB2-RAYON,YB2-RAYON,XB2+RAYON,YB2+RAYON,width=1,fill='blue')
+       #Balle noir
+    BalleN2 = canvas.create_oval(XN2-RAYON,YN2-RAYON,XN2+RAYON,YN2+RAYON,width=1,fill='black')
     
         
     
@@ -405,9 +409,18 @@ def deplacement():
                 canvas.coords(BalleCy3,XC+XCy3-RAYON,YC+YCy3-RAYON,XC+XCy3+RAYON,YC+YCy3+RAYON)
             if (C2T3 == 23 and int(Valeur.get()) == 3) or (C3T2 == 32 and int(Valeur.get()) == 3) or (C3T3 == 33 and int(Valeur.get()) == 4):
                 canvas.coords(BalleB2,XC+XB2-RAYON,YC+YB2-RAYON,XC+XB2+RAYON,YC+YB2+RAYON)
-            else:
-                canvas.coords(BalleCy3,XC+XCy3-RAYON,YC+YCy3-RAYON,XC+XCy3+RAYON,YC+YCy3+RAYON)
-                
+            if (C1T1 == 11) or (C1T2 == 12) or (C2T1 == 21):
+                if int(Valeur.get()) <= 5:
+                    canvas.coords(BalleCy3,XC+XCy3-RAYON,YC+YCy3-RAYON,XC+XCy3+RAYON,YC+YCy3+RAYON)
+            if int(Valeur.get()) < 3:
+                if (C2T2 == 22) or (C3T1 == 31):
+                    canvas.coords(BalleB2,XC+XB2-RAYON,YC+YB2-RAYON,XC+XB2+RAYON,YC+YB2+RAYON)
+                if (C2T3 == 23) or (C3T2 == 32) or (C3T3 == 33):
+                    canvas.coords(BalleN2,XC+XN2-RAYON,YC+YN2-RAYON,XC+XN2+RAYON,YC+YN2+RAYON)
+            if int(Valeur.get()) == 3:
+                if (C3T3 == 33):
+                    canvas.coords(BalleN2,XC+XN2-RAYON,YC+YN2-RAYON,XC+XN2+RAYON,YC+YN2+RAYON)
+                    
         root.update()
         time.sleep(0.04)
         
