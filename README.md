@@ -61,14 +61,14 @@ Generally, people who are bullied have one or more risk factors like mental diso
 
 <p>&nbsp; </p>
 
-
+<div align="justify">Les types sont classés du moins répandu au plus courant.</div>
 
 <p>&nbsp; </p>
 
 ## La dynamique du système
 
 
-<div align="justify">Une fois la situation initiale créée, le groupe d'harceleur apparait au lancement du programme qui va s'attaquer au bout de quelques secondes à un individu qui devient la victime. Au cours du temps, son état peut s'améliorer ou s'empirer.</div>
+<div align="justify">Une fois la situation initiale créée, le groupe d'harceleur apparait au lancement du programme qui va s'attaquer au bout de quelques secondes à un individu qui devient la victime. Au cours du temps, son état peut s'améliorer ou s'empirer.Par exemple, l'utilisateur sélectionne la cause "Origine, ethnie", le type d'harcèlement "Verbal" et le nombre d'amis "1". Le groupe d'harceleurs sera alors composé de 2 individus.</div>
 
 <p>&nbsp; </p>
 
@@ -77,7 +77,6 @@ Generally, people who are bullied have one or more risk factors like mental diso
 
 <div align="justify">Lorsqu'il s'attaque à la victime, cette dernière est tout d'abord "peu atteinte" :</div>  
 
-![]<div align="right">("https://www.cjoint.com/doc/19_04/IDnuzZd2H46_t5.jpg")</div>
 
 
 ![](https://www.cjoint.com/doc/19_04/IDnuzZd2H46_t5.jpg "Apparition de la victime")  
@@ -101,8 +100,3 @@ Generally, people who are bullied have one or more risk factors like mental diso
 
 <p>&nbsp; </p>
 
-
-
-* Image : Groupe d'harceleur 
-* Image : apres t15
-* Image : t27
