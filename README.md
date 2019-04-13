@@ -8,7 +8,7 @@ cp path/to/image.png ./assets/
 ![GitHub Logo](/images/logo.png)
 
 
-![Alt Text](https://www.bayard-jeunesse.com/wp-content/uploads/2018/05/ACT-CAR-Harcelement.jpg)
+![](https://www.bayard-jeunesse.com/wp-content/uploads/2018/05/ACT-CAR-Harcelement.jpg)
 
 
 # Description du projet
