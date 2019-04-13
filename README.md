@@ -74,7 +74,7 @@ On crée le cercle "Balle" puis on lui donne une vitesse pour enfin le faire app
  
 
 
-<div align="justify">Dans l'exemple ci-dessous, l'utilisateur à sélectionné la cause "Origine, ethnie", le type d'harcèlement "Verbal" et le nombre d'amis "1".</div>
+<div align="justify">Dans l'exemple ci-dessous, l'utilisateur a sélectionné la cause "Origine, ethnie", le type d'harcèlement "Verbal" et le nombre d'amis "1".</div>
 
 <p>&nbsp; </p>
 
