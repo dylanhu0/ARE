@@ -57,7 +57,7 @@ Generally, people who are bullied have one or more risk factors like mental diso
 
 
 
-<div style="image-align:center"><div align="center"><img src=https://www.cjoint.com/doc/19_04/IDnlPVPr416_Tableau-des-conditions-initiales.PNG "Illustration conditions initiales" /></div> 
+ 
 
 ![](![](https://www.bayard-jeunesse.com/wp-content/uploads/2018/05/ACT-CAR-Harcelement.jpg "Illustration Le harcelement") "Tableau conditions initiales")
 
