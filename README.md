@@ -21,7 +21,7 @@ Generally, people who are bullied have one or more risk factors like mental diso
   
 # Modélisation
 
-<div align="justify">Notre projet représente selon certaines conditions l'état d'une victime d'un harcèlement. Tout en reflétant la réalité avec le maximum de situations possible. Notre objectif est de montrer que cet état peut évoluer selon le type d'individu qui l'entoure.</div>
+<div align="justify">Notre projet cherche à représenter selon certaines conditions l'état d'une victime d'un harcèlement, tout en reflétant la réalité avec le maximum de situations possible. Notre objectif est de montrer que cet état peut évoluer selon le type d'individu qui l'entoure.</div>
 
 <p>&nbsp; </p>
 
