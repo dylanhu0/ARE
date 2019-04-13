@@ -58,8 +58,10 @@ Our project demonstrates, hypothetically, the effect of the victim when bullied.
 * Image : Tableau C1 T1 etc...
 
 
-<div align="center"><![](https://www.cjoint.com/doc/19_04/IDnlPVPr416_Tableau-des-conditions-initiales.PNG "Illustration conditions initiales")></div>
+<div align="center">![](https://www.cjoint.com/doc/19_04/IDnlPVPr416_Tableau-des-conditions-initiales.PNG "Illustration conditions initiales")</div>
 
+
+<div style="text-align:center"><img src =https://www.cjoint.com/doc/19_04/IDnlPVPr416_Tableau-des-conditions-initiales.PNG "Illustration conditions initiales" /></div>
 
 <div align="justify">Au cours du temps, et cela à partir des conditions initiales imposées par l'utilisateurs, l'état de la victime empire ou s'améliore.</div>
 
