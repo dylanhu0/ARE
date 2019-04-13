@@ -58,8 +58,8 @@ Our project demonstrates, hypothetically, the effect of the victim when bullied.
 * Image : Tableau C1 T1 etc...
 
 
-![](https://www.cjoint.com/doc/19_04/IDnlPVPr416_Tableau-des-conditions-initiales.PNG "Illustration conditions initiales")
 
+<div style="text-align:center"><div align="center"><img src=https://www.cjoint.com/doc/19_04/IDnlPVPr416_Tableau-des-conditions-initiales.PNG "Illustration conditions initiales" /></div> 
 
 
 
