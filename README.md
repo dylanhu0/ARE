@@ -1,7 +1,7 @@
 
 
 
-![](https://www.bayard-jeunesse.com/wp-content/uploads/2018/05/ACT-CAR-Harcelement.jpg)
+![](https://www.bayard-jeunesse.com/wp-content/uploads/2018/05/ACT-CAR-Harcelement.jpg"Illustration Le harcelement")
 
 
 # Description du projet
