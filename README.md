@@ -21,7 +21,7 @@ Generally, people who are bullied have one or more risk factors like mental diso
   
 # Modélisation
 
-<div align="justify">Notre projet représente selon certaines conditions l'état d'une victime d'un harcèlement. Tout en refléter la réalité avec le maximum de situations possible, notre objectif est de montrer que cet état peut évoluer selon le type d'individu qui l'entoure.</div>
+<div align="justify">Notre projet représente selon certaines conditions l'état d'une victime d'un harcèlement. Tout en reflétant la réalité avec le maximum de situations possible. Notre objectif est de montrer que cet état peut évoluer selon le type d'individu qui l'entoure.</div>
 
 <p>&nbsp; </p>
 
@@ -38,7 +38,7 @@ Generally, people who are bullied have one or more risk factors like mental diso
 
 
 
-<div align="justify">La victime est elle aussi représentée par un cercle, qui selon sa couleur décrit un état plus ou moins atteint par le harcèlement qu'elle subit :</div>
+<div align="justify">La victime est elle aussi représentée par un cercle, qui selon sa couleur, décrit un état plus ou moins atteint par le harcèlement qu'elle subit :</div>
 
 * Cyan : peu atteint
 * Bleu : moyennement atteint
@@ -53,7 +53,7 @@ Generally, people who are bullied have one or more risk factors like mental diso
 
 ## Paramètres pris en compte
 
-<div align="justify">Dans un premier temps l'action de l'utilisateur est requise pour générer une situation initiale qui évoluera dans un temps donné : 30 secondes dans notre cas, où nous pouvons supposer qu'une seconde correspond à un mois durant lequel la victime est harcelée. La situation initiale varie selon une cause et le(s) type(s) d'harcèlement sélectionnés comme le montre le tableau ci dessous mais aussi selon la quantité d'individus dans l'entourage de la victime (nombre d'amis).</div>
+<div align="justify">Dans un premier temps, l'action de l'utilisateur est requise pour générer une situation initiale qui évoluera dans un temps donné (30 secondes dans notre cas), où nous pouvons supposer qu'une seconde correspond à une semaine durant laquelle la victime est harcelée. La situation initiale varie selon une cause et un type d'harcèlement sélectionnés comme le montre le tableau ci dessous, mais aussi selon la quantité d'individus dans l'entourage de la victime (nombre d'amis).</div>
 
 <p>&nbsp; </p>
 
@@ -64,12 +64,12 @@ Generally, people who are bullied have one or more risk factors like mental diso
 
 ## L'évolution
 
-une fois la situation initiale créé le groupe d'harceleur apparait au lancement du proramme qui va s'attaquer au bout de quelques secondes à un individu qui devient la victime
 
-<div align="justify">Au cours du temps, l'état de la victime empire ou s'améliore. Au lancement du programme, il y a la création d'un groupe d'harceleurs qui au bout de quelques seconde s'attaque à un individu qui devient la victime. Au cours du temps, son état peut s'empirer ou s'améliorer.</div>
+<div align="justify">Une fois la situation initiale créée, le groupe d'harceleur apparait au lancement du programme qui va s'attaquer au bout de quelques secondes à un individu qui devient la victime. Au cours du temps, son état peut s'améliorer ou s'empirer.</div>
 
 
-<div align="justify">Par exemple, l'utilisateur sélectionne la cause "Origine, Ethnie", le type d'harcèlement "Physique" et le nombre d'amis "3". Le groupe d'harceleurs sera composé de 2 individus. Lorsqu'il s'attaque à la victime, cette dernière est tout d'abord "peu atteinte" puis entre dans un état intermédiare qu'elle conservera jusque l'apparition de son entourage. Une fois apparu, le nombre d'amis étant de 3, son état se stabilise et/ou s'améliore.</div>
+<div align="justify">Par exemple, l'utilisateur sélectionne la cause "Orientation sexuelle", le type d'harcèlement "Social" et le nombre d'amis "1". Le groupe d'harceleurs sera composé de 2 individus. Lorsqu'il s'attaque à la victime, cette dernière est tout d'abord "peu atteinte" puis entre dans un état intermédiare pour ensuite entrer dans un état "moyennement atteint". Une fois son entourage apparu, un nouvel état intermédiaire est appliqué à la victime pour enfin nous afficher son état final. Dans cet exemple,  le nombre d'amis étant de 3, son état s'empire et la victime devient "très atteint".</div>
+
 
 * Image : Groupe d'harceleur 
 * Image : apres t15
