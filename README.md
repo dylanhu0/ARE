@@ -55,11 +55,9 @@ Generally, people who are bullied have one or more risk factors like mental diso
 
 <div align="justify">Dans un premier temps l'action de l'utilisateur est requise pour générer une situation initiale qui évoluera dans un temps donné : 30 secondes dans notre cas, où nous pouvons supposer qu'une seconde correspond à un mois durant lequel la victime est harcelée. La situation initiale varie selon une cause et le(s) type(s) d'harcèlement sélectionnés comme le montre le tableau ci dessous mais aussi selon la quantité d'individus dans l'entourage de la victime (nombre d'amis).</div>
 
+![](https://www.cjoint.com/doc/19_04/IDnqnAmb8n6_Tableau-des-conditions-initiales-2.PNG) 
 
 
- 
-
-![](![](https://www.bayard-jeunesse.com/wp-content/uploads/2018/05/ACT-CAR-Harcelement.jpg "Illustration Le harcelement") "Tableau conditions initiales")
 
 <p>&nbsp; </p>
 
