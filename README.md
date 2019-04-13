@@ -75,21 +75,29 @@ Generally, people who are bullied have one or more risk factors like mental diso
 
 
 
+<div align="justify">Lorsqu'il s'attaque à la victime, cette dernière est tout d'abord "peu atteinte"</div>
+
+<p>&nbsp; </p>
+
+
+![](https://www.cjoint.com/doc/19_04/IDnuzZd2H46_t5.jpg "Apparition de la victime")  
+
+<p>&nbsp; </p>
+
+puis entre dans un état intermédiare pour ensuite entrer dans un état "moyennement atteint"
+
+<p>&nbsp; </p>
+
+![](https://www.cjoint.com/doc/19_04/IDnuAbJVOa6_t15.jpg "changement d'etat")  
+
+<p>&nbsp; </p>
+
+Une fois son entourage apparu, un nouvel état intermédiaire est appliqué à la victime pour enfin nous afficher son état final. Dans cet exemple,  le nombre d'amis étant de 3, son état s'empire et la victime devient "très atteint".
 
 
 <p>&nbsp; </p>
 
-
-![](https://www.cjoint.com/doc/19_04/IDnuzZd2H46_t5.jpg "Apparition de la victime")  <div align="justify">Lorsqu'il s'attaque à la victime, cette dernière est tout d'abord "peu atteinte"</div>
-
-<p>&nbsp; </p>
-
-![](https://www.cjoint.com/doc/19_04/IDnuAbJVOa6_t15.jpg "changement d'etat")  puis entre dans un état intermédiare pour ensuite entrer dans un état "moyennement atteint"
-
-<p>&nbsp; </p>
-
-![](https://www.cjoint.com/doc/19_04/IDnuAuUD266_t27.jpg "amis et resultat")  Une fois son entourage apparu, un nouvel état intermédiaire est appliqué à la victime pour enfin nous afficher son état final. Dans cet exemple,  le nombre d'amis étant de 3, son état s'empire et la victime devient "très atteint".
-
+![](https://www.cjoint.com/doc/19_04/IDnuAuUD266_t27.jpg "amis et resultat")  
 
 
 <p>&nbsp; </p>
