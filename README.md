@@ -5,7 +5,7 @@
 
 <p>&nbsp; </p>
 
-# Description du projet
+<div align="center"># Description du projet</div>
 
 
 <div align="justify">Bullying is unwanted, aggressive behavior among school aged children that involves a real or perceived power imbalance. The behavior is repeated, or has the potential to be repeated, over time. Both kids who are bullied and who bully others may have serious, lasting problems.
