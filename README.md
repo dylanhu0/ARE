@@ -57,7 +57,7 @@ On crée le cercle "Balle" puis on lui donne une vitesse pour enfin le faire app
 
 ## Paramètres pris en compte
 
-<div align="justify">Dans un premier temps, l'action de l'utilisateur est requise pour générer une situation initiale qui évoluera dans un temps donné (30 secondes dans notre cas), où nous pouvons supposer qu'une seconde correspond à une semaine durant laquelle la victime est harcelée. La situation initiale varie selon une cause et un type d'harcèlement sélectionnés comme le montre le tableau ci dessous, mais aussi selon la quantité d'individus dans l'entourage de la victime (nombre d'amis).</div>
+<div align="justify">Dans un premier temps, l'action de l'utilisateur est requise pour générer une situation initiale qui évoluera dans un temps donné (30 secondes dans notre cas), où nous pouvons supposer qu'une seconde correspond à une semaine durant laquelle la victime est harcelée. La situation initiale varie selon une cause et un type d'harcèlement sélectionnés comme le montre le tableau ci dessous.</div>
 
 <p>&nbsp; </p>
 
