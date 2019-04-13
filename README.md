@@ -45,9 +45,9 @@ Generally, people who are bullied have one or more risk factors like mental diso
 * Noir : très atteint
 <p>&nbsp; </p>
 
-<div align="justify">Afin de faciliter la lisibilité du modèle, nous avons organisé ces différents cercles de telle sorte à ce qu'ils suivent une orbite autour de la victime.</div>
+<div align="justify">Afin de faciliter la lisibilité du modèle, nous avons organisé ces différents cercles de telle sorte à ce qu'ils suivent une orbite prédefinie autour de la victime selon son statut dans l'environnement (harceleurs, neutre ou amis).</div>
 
-* Image : Organisation des cercles
+
 
 <p>&nbsp; </p>
 
