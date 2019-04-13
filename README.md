@@ -111,6 +111,10 @@ Generally, people who are bullied have one or more risk factors like mental diso
 <p>&nbsp; </p>
 
 # Conclusion
+
+<div align="justify">Les différentes situations initiales possibles à l'aide des causes et des types d'harcèlement, autorisent un large pannel de résultats sur l'état final de la victime. En tentant d'ajouter le maximum de paramètrees nous avons pu nous rapprocher au mieux de la réalité. En effet notre modèle d'étude décrit aussi bien l'isolement de la victime que l'intensité du harcèlement qu'elle subit. Néanmoins, il reste quelques  facteurs du harcèlement ne sont pas décrits par notre projet comme le sexe de la victime par rapport à celui de ses harceleurs (une femme entourée d'hommes ou encore l'influence qu'à la victime sur son entourage (aggressivité par exemple).</div>
+
+
 <p>&nbsp; </p>
 
 # Membres du groupe
