@@ -55,12 +55,9 @@ Our project demonstrates, hypothetically, the effect of the victim when bullied.
 
 <div align="justify">Pour commencer, l'environnement nécessite dans un premier temps l'action de l'utilisateur pour générer une situation initiale qui évoluera dans un temps donné : 30 secondes dans notre cas où nous pouvons supposer que un mois réel vaut une seconde par exemple. La situation initiale varie selon une cause et le(s) type(s) sélectionnés comme le montre le tableau ci dessous :</div>
 
-* Image : Tableau C1 T1 etc...
-
-
-
 <div align="center"><img src=https://www.cjoint.com/doc/19_04/IDnlPVPr416_Tableau-des-conditions-initiales.PNG "Illustration conditions initiales" /></div>
 
+<p>&nbsp; </p>
 
 <div align="justify">Au cours du temps, et cela à partir des conditions initiales imposées par l'utilisateurs, l'état de la victime empire ou s'améliore.</div>
 
