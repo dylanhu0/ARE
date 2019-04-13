@@ -79,7 +79,7 @@ Generally, people who are bullied have one or more risk factors like mental diso
 
 
 <p align="center">
-  <img width="460" height="300" src="https://www.cjoint.com/doc/19_04/IDnuzZd2H46_t5/460/300.jpg">
+  <img width="460" height="300" src="https://www.cjoint.com/doc/19_04/IDnuzZd2H46_t5.jpg/460/300">
 </p>
 
 ![](https://www.cjoint.com/doc/19_04/IDnuzZd2H46_t5.jpg "Apparition de la victime")  
