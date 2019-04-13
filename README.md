@@ -74,24 +74,24 @@ Generally, people who are bullied have one or more risk factors like mental diso
 
 
 
-<div align="justify">Par exemple, l'utilisateur sélectionne la cause "Orientation sexuelle", le type d'harcèlement "Social" et le nombre d'amis "1". Le groupe d'harceleurs sera composé de 2 individus. Lorsqu'il s'attaque à la victime, cette dernière est tout d'abord "peu atteinte" puis entre dans un état intermédiare pour ensuite entrer dans un état "moyennement atteint". Une fois son entourage apparu, un nouvel état intermédiaire est appliqué à la victime pour enfin nous afficher son état final. Dans cet exemple,  le nombre d'amis étant de 3, son état s'empire et la victime devient "très atteint".</div>
 
 
 
+<p>&nbsp; </p>
 
 
-![Lorsqu'il s'attaque à la victime, cette dernière est tout d'abord peu atteinte](https://www.cjoint.com/doc/19_04/IDnuzZd2H46_t5.jpg "Apparition de la victime")  
+![](https://www.cjoint.com/doc/19_04/IDnuzZd2H46_t5.jpg "Apparition de la victime")  Lorsqu'il s'attaque à la victime, cette dernière est tout d'abord "peu atteinte"
+
+<p>&nbsp; </p>
+
+![](https://www.cjoint.com/doc/19_04/IDnuAbJVOa6_t15.jpg "changement d'etat")  puis entre dans un état intermédiare pour ensuite entrer dans un état "moyennement atteint"
+
+<p>&nbsp; </p>
+![](https://www.cjoint.com/doc/19_04/IDnuAuUD266_t27.jpg "amis et resultat") Une fois son entourage apparu, un nouvel état intermédiaire est appliqué à la victime pour enfin nous afficher son état final. Dans cet exemple,  le nombre d'amis étant de 3, son état s'empire et la victime devient "très atteint".
 
 
 
-![](https://www.cjoint.com/doc/19_04/IDnuAbJVOa6_t15.jpg "changement d'etat") 
-
-
-![](https://www.cjoint.com/doc/19_04/IDnuAuUD266_t27.jpg "amis et resultat")
-
-
-
-
+<p>&nbsp; </p>
 
 
 
