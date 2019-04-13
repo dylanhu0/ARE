@@ -5,7 +5,7 @@
 
 <p>&nbsp; </p>
 
-#<div align="center"> Description du projet</div>
+# Description du projet
 
 
 <div align="justify">Bullying is unwanted, aggressive behavior among school aged children that involves a real or perceived power imbalance. The behavior is repeated, or has the potential to be repeated, over time. Both kids who are bullied and who bully others may have serious, lasting problems.
@@ -58,7 +58,7 @@ Our project demonstrates, hypothetically, the effect of the victim when bullied.
 * Image : Tableau C1 T1 etc...
 
 
-<div align="center">  ![](https://www.cjoint.com/doc/19_04/IDnlPVPr416_Tableau-des-conditions-initiales.PNG "Illustration conditions initiales")  image</div>
+<div align="center">  ![](https://www.cjoint.com/doc/19_04/IDnlPVPr416_Tableau-des-conditions-initiales.PNG "Illustration conditions initiales")  </div>
 
 
 <div align="justify">Au cours du temps, et cela à partir des conditions initiales imposées par l'utilisateurs, l'état de la victime empire ou s'améliore.</div>
