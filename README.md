@@ -75,11 +75,7 @@ Generally, people who are bullied have one or more risk factors like mental diso
 
 
 
-<div align="justify">Lorsqu'il s'attaque à la victime, cette dernière est tout d'abord "peu atteinte" :</div>
-
-<p align="center"><img width="460" height="300" src="https://www.cjoint.com/doc/19_04/IDnuzZd2H46_t5.jpg"></p>
-
-<img align="right" width="100" height="100" src="https://www.cjoint.com/doc/19_04/IDnuzZd2H46_t5.jpg">
+<div align="justify">Lorsqu'il s'attaque à la victime, cette dernière est tout d'abord "peu atteinte" :</div>  <img align="right" width="100" height="100" src="https://www.cjoint.com/doc/19_04/IDnuzZd2H46_t5.jpg">
 
 
 ![](https://www.cjoint.com/doc/19_04/IDnuzZd2H46_t5.jpg "Apparition de la victime")  
@@ -90,7 +86,7 @@ Generally, people who are bullied have one or more risk factors like mental diso
 
 
 
-![](https://www.cjoint.com/doc/19_04/IDnuAbJVOa6_t15.jpg "changement d'etat")  
+![](https://www.cjoint.com/doc/19_04/IDnuAbJVOa6_t15.jpg "Changement d'etat")  
 
 <p>&nbsp; </p>
 
@@ -98,7 +94,7 @@ Generally, people who are bullied have one or more risk factors like mental diso
 
 
 
-![](https://www.cjoint.com/doc/19_04/IDnuAuUD266_t27.jpg "amis et resultat")  
+![](https://www.cjoint.com/doc/19_04/IDnuAuUD266_t27.jpg "Apparation de l'entourage et résultat sur la victime")  
 
 
 <p>&nbsp; </p>
