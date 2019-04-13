@@ -406,22 +406,36 @@ def deplacement():
             
         #Changement de couleur de la victime selon le nombre d’amis et le nombre d'harceleur  
         if t >=27:
-            if (C1T3 == 13 and int(Valeur.get()) == 3) or (C2T2 == 22 and int(Valeur.get()) == 4) or (C2T3 == 23 and int(Valeur.get()) == 4) or (C3T1 == 31 and int(Valeur.get()) == 3) or (C3T2 == 32 and int(Valeur.get()) == 4) or (C3T3 == 33 and int(Valeur.get()) == 5):
-                canvas.coords(BalleCy3,XC+XCy3-RAYON,YC+YCy3-RAYON,XC+XCy3+RAYON,YC+YCy3+RAYON)
-            if (C2T3 == 23 and int(Valeur.get()) == 3) or (C3T2 == 32 and int(Valeur.get()) == 3) or (C3T3 == 33 and int(Valeur.get()) == 4):
-                canvas.coords(BalleB2,XC+XB2-RAYON,YC+YB2-RAYON,XC+XB2+RAYON,YC+YB2+RAYON)
-            if (C1T1 == 11) or (C1T2 == 12) or (C2T1 == 21):
-                if int(Valeur.get()) <= 5:
-                    canvas.coords(BalleCy3,XC+XCy3-RAYON,YC+YCy3-RAYON,XC+XCy3+RAYON,YC+YCy3+RAYON)
-            if int(Valeur.get()) < 3:
-                if (C2T2 == 22) or (C3T1 == 31):
+            if int(Valeur.get()) == 0:
+                if (C1T1 == 11) or (C1T2 == 12) or (C2T1 == 21):
                     canvas.coords(BalleB2,XC+XB2-RAYON,YC+YB2-RAYON,XC+XB2+RAYON,YC+YB2+RAYON)
-                if (C2T3 == 23) or (C3T2 == 32) or (C3T3 == 33):
+                else:
+                    canvas.coords(BalleN2,XC+XN2-RAYON,YC+YN2-RAYON,XC+XN2+RAYON,YC+YN2+RAYON)
+            if int(Valeur.get()) == 1:
+                if (C1T1 == 11 ) or (C1T2 == 12) or (C1T3 == 12) or (C2T1 == 21) or (C2T2 == 22):
+                    canvas.coords(BalleB2,XC+XB2-RAYON,YC+YB2-RAYON,XC+XB2+RAYON,YC+YB2+RAYON)
+                else:
+                    canvas.coords(BalleN2,XC+XN2-RAYON,YC+YN2-RAYON,XC+XN2+RAYON,YC+YN2+RAYON)
+            if int(Valeur.get()) == 2:
+                if (C1T1 == 11) or (C1T2 == 12) or (C2T1 == 21):
+                    canvas.coords(BalleCy3,XC+XCy3-RAYON,YC+YCy3-RAYON,XC+XCy3+RAYON,YC+YCy3+RAYON)
+                if (C1T3 == 13) or (C2T2 == 22) or (C3T1 == 31):
+                    canvas.coords(BalleB2,XC+XB2-RAYON,YC+YB2-RAYON,XC+XB2+RAYON,YC+YB2+RAYON)
+                else:
                     canvas.coords(BalleN2,XC+XN2-RAYON,YC+YN2-RAYON,XC+XN2+RAYON,YC+YN2+RAYON)
             if int(Valeur.get()) == 3:
+                if (C1T1 == 11 ) or (C1T2 == 12) or (C1T3 == 12) or (C2T1 == 21) or (C2T2 == 22) or (C3T1 == 31):
+                    canvas.coords(BalleCy3,XC+XCy3-RAYON,YC+YCy3-RAYON,XC+XCy3+RAYON,YC+YCy3+RAYON)
+                else:
+                    canvas.coords(BalleB2,XC+XB2-RAYON,YC+YB2-RAYON,XC+XB2+RAYON,YC+YB2+RAYON)
+            if int(Valeur.get()) == 4:
                 if (C3T3 == 33):
-                    canvas.coords(BalleN2,XC+XN2-RAYON,YC+YN2-RAYON,XC+XN2+RAYON,YC+YN2+RAYON)
-                    
+                    canvas.coords(BalleB2,XC+XB2-RAYON,YC+YB2-RAYON,XC+XB2+RAYON,YC+YB2+RAYON)
+                else:
+                    canvas.coords(BalleCy3,XC+XCy3-RAYON,YC+YCy3-RAYON,XC+XCy3+RAYON,YC+YCy3+RAYON)
+            if int(Valeur.get()) == 5:
+                canvas.coords(BalleCy3,XC+XCy3-RAYON,YC+YCy3-RAYON,XC+XCy3+RAYON,YC+YCy3+RAYON)
+                
         root.update()
         time.sleep(0.04)
         
@@ -507,12 +521,5 @@ BoutonEffacer = Button(root, text ='Effacer', command = Effacer)
 BoutonEffacer.place(x=610, y=680)
 
 root.mainloop()
-        
-    
-    
-    
-    
-    
-    
-    
-    
+
+  
