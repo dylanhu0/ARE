@@ -2,7 +2,7 @@
 * Image : Harcelement avant ou apres le paragraphe
 
 
-![Alt text](http://"https://dylanhu0.github.io/Le-Harcelement//images/IDnkAVDDyF6_Projet-Harcelement.jpg"Optional title")
+![Alt text](http://"https://dylanhu0.github.io/Le-Harcelement/images/IDnkAVDDyF6_Projet-Harcelement.jpg)
 
 ![Alt text](https://www.cjoint.com/c/IDnkAVDDyF6.jpg"Harcèlement")
 
