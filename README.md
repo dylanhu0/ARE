@@ -1,3 +1,17 @@
+
+* Image : Harcelement avant ou apres le paragraphe
+
+
+![Alt text](http://"https://dylanhu0.github.io/Le-Harcelement//images/IDnkAVDDyF6_Projet-Harcelement.jpg"Optional title")
+
+![Alt text](https://www.cjoint.com/c/IDnkAVDDyF6.jpg"Harcèlement")
+
+[img]https://www.cjoint.com/c/IDnkAVDDyF6[/img]
+
+<img src="https://www.cjoint.com/c/IDnkAVDDyF6".png>
+
+
+
 # Description du projet
 
 
@@ -11,18 +25,6 @@ Our project demonstrates, hypothetically, the effect of the victim when bullied.
 
 <p>&nbsp; </p>
 
-* Image : Harcelement avant ou apres le paragraphe
-
-![Alt text](http://"https://dylanhu0.github.io/Le-Harcelement//images/https://www.cjoint.com/c/IDnkAVDDyF6"Optional title")
-
-![Alt text](https://www.cjoint.com/c/IDnkAVDDyF6.jpg"Harcèlement")
-
-[img]https://www.cjoint.com/c/IDnkAVDDyF6[/img]
-
-<img src="https://www.cjoint.com/c/IDnkAVDDyF6".png>
-
-
-<p>&nbsp; </p>
 
   
 # Modélisation
