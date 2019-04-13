@@ -46,9 +46,12 @@ Generally, people who are bullied have one or more risk factors like mental diso
 <p>&nbsp; </p>
 
 <div align="justify">Afin de faciliter la lisibilité du modèle, nous avons organisé ces différents cercles de telle sorte à ce qu'ils suivent une orbite prédefinie autour de la victime selon son statut dans l'environnement (harceleurs, neutre ou amis).</div>
+On crée le cercle "Balle" puis on lui donne une vitesse pour enfin le faire apparaître et suivre l'orbite souhaité
+<p>&nbsp; </p>
 
-
-
+    1. Balle = canvas.create_oval(X,Y,X,Y,fill='red')
+    2. V=cangle*complex(X,Y)
+    3. canvas.coords(Balle,XC+X-RAYON,YC+Y-RAYON,XC+X+RAYON,YC+Y+RAYON)
 <p>&nbsp; </p>
 
 ## Paramètres pris en compte
@@ -91,8 +94,13 @@ Generally, people who are bullied have one or more risk factors like mental diso
 <div align="justify">Une fois son entourage apparu, un nouvel état intermédiaire est appliqué à la victime pour enfin nous afficher son état final. Dans cet exemple,  le nombre d'amis étant de 3, son état s'empire et la victime devient "très atteint" :</div>
 
 
+
 ![](https://www.cjoint.com/doc/19_04/IDnuAuUD266_t27.jpg "Apparation de l'entourage et résultat sur la victime")  
 
 
 <p>&nbsp; </p>
 
+# Conclusion
+<p>&nbsp; </p>
+
+# Membres du groupe
