@@ -70,7 +70,7 @@ Generally, people who are bullied have one or more risk factors like mental diso
 
 <div align="justify">Une fois la situation initiale créée, le groupe d'harceleur apparait au lancement du programme qui va s'attaquer au bout de quelques secondes à un individu qui devient la victime. Au cours du temps, son état peut s'améliorer ou s'empirer.</div>
 
-
+<p>&nbsp; </p>
 
 
 
@@ -80,7 +80,7 @@ Generally, people who are bullied have one or more risk factors like mental diso
 
 
 
-![](https://www.cjoint.com/doc/19_04/IDnuzZd2H46_t5.jpg "Apparition de la victime")  
+![Lorsqu'il s'attaque à la victime, cette dernière est tout d'abord "peu atteinte"](https://www.cjoint.com/doc/19_04/IDnuzZd2H46_t5.jpg "Apparition de la victime")  
 
 
 
