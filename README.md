@@ -105,3 +105,7 @@ On crée le cercle "Balle" puis on lui donne une vitesse pour enfin le faire app
 <p>&nbsp; </p>
 
 # Membres du groupe
+
++ AHMED ELADAWI Haïcem
++ ELGHOUL Elio
++ HU Dylan
