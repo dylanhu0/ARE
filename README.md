@@ -1,17 +1,9 @@
 
 * Image : Harcelement avant ou apres le paragraphe
 
-
-![123](http://"https://dylanhu0.github.io/Le-Harcelement/IDnkAVDDyF6_Projet-Harcelement.jpg)
-
-![Alt text](https://www.cjoint.com/c/IDnkAVDDyF6)
-
-[img]https://www.cjoint.com/c/IDnkAVDDyF6[/img]
-
-<img src="https://www.cjoint.com/c/IDnkAVDDyF6".png>
-
-
-
+mkdir assets
+cp path/to/image.png ./assets/
+![useful image]({{ site.url }}/assets/image.png)
 # Description du projet
 
 
