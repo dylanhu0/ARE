@@ -4,6 +4,7 @@
 mkdir assets
 cp path/to/image.png ./assets/
 ![useful image]({{ site.url }}/assets/image.png)
+
 # Description du projet
 
 
