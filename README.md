@@ -13,6 +13,8 @@ Our project demonstrates, hypothetically, the effect of the victim when bullied.
 
 * Image : Harcelement avant ou apres le paragraphe
 
+![Alt text](https://www.cjoint.com/c/IDnkAVDDyF6.jpg"Harcèlement")
+
 [img]https://www.cjoint.com/c/IDnkAVDDyF6[/img]
 
 <img src="https://www.cjoint.com/c/IDnkAVDDyF6".png>
