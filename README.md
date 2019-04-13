@@ -69,5 +69,8 @@ une fois la situation initiale créé le groupe d'harceleur apparait au lancemen
 <div align="justify">Au cours du temps, l'état de la victime empire ou s'améliore. Au lancement du programme, il y a la création d'un groupe d'harceleurs qui au bout de quelques seconde s'attaque à un individu qui devient la victime. Au cours du temps, son état peut s'empirer ou s'améliorer.</div>
 
 
-<div align="justify">Par exemple, l'utilisateur sélectionne la cause "Origine, Ethnie", le type d'harcèlement "Physique" et le nombre d'amis "3". Le groupe d'harceleurs sera composé de 2 individus. Lorsqu'il s'attaque à la victime, cette dernière est tout d'abord "peu atteinte" puis entre dans l'état "". Enfin, le nombre d'amis étant de 3, son état se stabilise et s'améliore.</div>
+<div align="justify">Par exemple, l'utilisateur sélectionne la cause "Origine, Ethnie", le type d'harcèlement "Physique" et le nombre d'amis "3". Le groupe d'harceleurs sera composé de 2 individus. Lorsqu'il s'attaque à la victime, cette dernière est tout d'abord "peu atteinte" puis entre dans un état intermédiare qu'elle conservera jusque l'apparition de son entourage. Une fois apparu, le nombre d'amis étant de 3, son état se stabilise et/ou s'améliore.</div>
 
+* Image : Groupe d'harceleur 
+* Image : apres t15
+* Image : t27
