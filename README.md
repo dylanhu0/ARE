@@ -46,11 +46,12 @@ Generally, people who are bullied have one or more risk factors like mental diso
 <p>&nbsp; </p>
 
 <div align="justify">Afin de faciliter la lisibilité du modèle, nous avons organisé ces différents cercles de telle sorte à ce qu'ils suivent une orbite prédefinie autour de la victime selon son statut dans l'environnement (harceleurs, neutre ou amis).</div>
-On crée le cercle "Balle" puis on lui donne une vitesse pour enfin le faire apparaître et suivre l'orbite souhaité
+On crée le cercle "Balle" puis on lui donne une vitesse pour enfin le faire apparaître et suivre l'orbite souhaitée à l'aide de coordonnées défini préalablement.
 <p>&nbsp; </p>
 
-    1. Balle = canvas.create_oval(X,Y,X,Y,fill='red')
-    2. V=cangle*complex(X,Y)
+    1. Balle = canvas.create_oval(X,Y,X,Y,fill='white')
+    2. cangle=cmath.exp(0.09j)
+       Vangle*complex(X,Y)       
     3. canvas.coords(Balle,XC+X-RAYON,YC+Y-RAYON,XC+X+RAYON,YC+Y+RAYON)
 <p>&nbsp; </p>
 
@@ -94,9 +95,7 @@ On crée le cercle "Balle" puis on lui donne une vitesse pour enfin le faire app
 <div align="justify">Une fois son entourage apparu, un nouvel état intermédiaire est appliqué à la victime pour enfin nous afficher son état final. Dans cet exemple,  le nombre d'amis étant de 3, son état s'empire et la victime devient "très atteint" :</div>
 
 
-<p align="center">
- <img width="460" height="300" src="https://www.cjoint.com/doc/19_04/IDnuAuUD266_t27.jpg"> <img width="460" height="300" src="https://www.cjoint.com/doc/19_04/IDnuAuUD266_t27.jpg">
-</p>
+
 ![](https://www.cjoint.com/doc/19_04/IDnuAuUD266_t27.jpg "Apparation de l'entourage et résultat sur la victime")  
 
 
