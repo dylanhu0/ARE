@@ -4,7 +4,7 @@
 
 ![123](http://"https://dylanhu0.github.io/Le-Harcelement/IDnkAVDDyF6_Projet-Harcelement.jpg)
 
-![Alt text](https://www.cjoint.com/c/IDnkAVDDyF6.jpg"Harcèlement")
+![Alt text](https://www.cjoint.com/c/IDnkAVDDyF6)
 
 [img]https://www.cjoint.com/c/IDnkAVDDyF6[/img]
 
