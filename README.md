@@ -51,7 +51,7 @@ On crée le cercle "Balle" puis on lui donne une vitesse pour enfin le faire app
 
     1. Balle = canvas.create_oval(X,Y,X,Y,fill='white')
     2. cangle=cmath.exp(0.09j)
-       Vangle*complex(X,Y)       
+       V=cangle*complex(X,Y)       
     3. canvas.coords(Balle,XC+X-RAYON,YC+Y-RAYON,XC+X+RAYON,YC+Y+RAYON)
 <p>&nbsp; </p>
 
