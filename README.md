@@ -62,6 +62,7 @@ Generally, people who are bullied have one or more risk factors like mental diso
 ![](![](https://www.bayard-jeunesse.com/wp-content/uploads/2018/05/ACT-CAR-Harcelement.jpg "Illustration Le harcelement") "Tableau conditions initiales")
 
 <p>&nbsp; </p>
+
 ## L'évolution
 
 une fois la situation initiale créé le groupe d'harceleur apparait au lancement du proramme qui va s'attaquer au bout de quelques secondes à un individu qui devient la victime
