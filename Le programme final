@@ -1,5 +1,6 @@
 from tkinter import *
 from random import randrange
+from PIL import Image, ImageTk
 import math,random
 import cmath
 import numpy
@@ -470,6 +471,12 @@ frame.pack()
 timer_display = Label(root, textvar= heur)
 timer_display.place(x= 600, y= 495, anchor = CENTER)
 
+#L'image
+image = Image.open("harcelement.jpg")
+photo = ImageTk.PhotoImage(image,master=root)
+label = Label(root, image=photo)
+label.image = photo
+label.place(x=5,y=5)
 
 #Les positions et boutons
 # Création d'un widget Scale
