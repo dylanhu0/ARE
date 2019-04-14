@@ -57,7 +57,7 @@ Generally, people who are bullied have one or more risk factors like mental diso
     3. canvas.coords(Balle,XC+X-RAYON,YC+Y-RAYON,XC+X+RAYON,YC+Y+RAYON)
 <p>&nbsp; </p>
 
-![](https://www.cjoint.com/doc/19_04/IDovsXIYOo6_Orbite.png "Organisation de l'environnement")
+![](https://www.cjoint.com/doc/19_04/IDowje6tal6_orbite2.PNG "Organisation de l'environnement")
 
 
 
