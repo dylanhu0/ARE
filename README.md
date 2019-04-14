@@ -57,6 +57,14 @@ Generally, people who are bullied have one or more risk factors like mental diso
     3. canvas.coords(Balle,XC+X-RAYON,YC+Y-RAYON,XC+X+RAYON,YC+Y+RAYON)
 <p>&nbsp; </p>
 
+![](https://www.cjoint.com/doc/19_04/IDovsXIYOo6_Orbite.png "Organisation de l'environnement")
+
+
+
+<p>&nbsp; </p>
+
+
+
 ## Paramètres pris en compte
 
 <div align="justify">Dans un premier temps, l'action de l'utilisateur est requise pour générer une situation initiale qui évoluera dans un temps donné (30 secondes dans notre cas), où nous pouvons supposer qu'une seconde correspond à une semaine durant laquelle la victime est harcelée. La situation initiale varie selon une cause et un type d'harcèlement sélectionnés comme le montre le tableau ci dessous.</div>
@@ -122,3 +130,18 @@ Generally, people who are bullied have one or more risk factors like mental diso
 + AHMED ELADAWI Haïcem
 + ELGHOUL Elio
 + HU Dylan
+
+<p>&nbsp; </p>
+
+# Annexe
+Nous nous sommes inspirés de plusieurs articles et études décrivant le phénomène du harcèlement pour les différentes causes et types.
+
+https://nospensees.fr/5-types-de-harcelement-a-lecole/
+http://www.i-share.fr/actualite/le-harcelement-scolaire-quen-est-il-en-2018
+
+
+https://www.nonauharcelement.education.gouv.fr/wp-content/uploads/2012/01/guide_pratique_le_harcelement_entre_eleves1.pdf
+
+https://etudiant.lefigaro.fr/article/enquete-sur-le-harcelement-scolaire-les-filles-sont-surrepresentees-_596f11e6-c554-11e7-b5ea-cfc166fd55ef/
+
+
