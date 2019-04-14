@@ -63,7 +63,7 @@ Generally, people who are bullied have one or more risk factors like mental diso
 
 <p>&nbsp; </p>
 
-![](https://www.cjoint.com/doc/19_04/IDnqnAmb8n6_Tableau-des-conditions-initiales-2.PNG) 
+![](https://www.cjoint.com/doc/19_04/IDnqnAmb8n6_Tableau-des-conditions-initiales-2.PNG "Conditions initiales possibles") 
 
 <p>&nbsp; </p>
 
