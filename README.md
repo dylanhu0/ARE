@@ -13,7 +13,7 @@ Bullying can take on many forms which are just as emotionally and psychologicall
 Generally, people who are bullied have one or more risk factors like mental disorder, different race or ethnicity, different sexual orientation…</div>
 
 
-<div align="justify">Our project creates a small environnement that shows us the evolution of the victim's condition according to an initial situation. The aim is to represents how the victim's condition can evolve by adding harassers or friends.</div>
+<div align="justify">Our project creates a small environnement that shows us the evolution of the victim's condition according to an initial situation. The aim is to represent how the victim's condition can evolve by adding harassers or friends.</div>
 
 <p>&nbsp; </p>
 
@@ -21,7 +21,7 @@ Generally, people who are bullied have one or more risk factors like mental diso
   
 # Modélisation
 
-<div align="justify">Notre projet cherche à représenter selon certaines conditions l'état d'une victime d'un harcèlement, en reflétant la réalité avec le maximum de situations possibles. Notre objectif est de montrer que cet état peut évoluer selon le type d'individu qui l'entoure. Dans un premier temps il sera décrit le modèle d'étude utilisé pour illustrer le phénomène puis les paramètres disponibles et enfin la dynamique sera explicité à l'aide d'un exemple</div>
+<div align="justify">Notre projet cherche à représenter selon certaines conditions l'état d'une victime d'un harcèlement, en reflétant la réalité avec le maximum de situations possibles. Notre objectif est de montrer que cet état peut évoluer selon le type d'individu qui l'entoure. Dans un premiers temps, il sera décrit le modèle d'étude utilisé pour illustrer le phénomène puis les paramètres disponibles et enfin la dynamique sera explicité à l'aide d'un exemple</div>
 
 <p>&nbsp; </p>
 
