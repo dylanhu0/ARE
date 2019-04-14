@@ -134,9 +134,6 @@ Generally, people who are bullied have one or more risk factors like mental diso
 <p>&nbsp; </p>
 
 # Bibliograpgie
-<div align="justify">
-  
-  
 
 https://nospensees.fr/5-types-de-harcelement-a-lecole/
 
@@ -150,6 +147,6 @@ https://etudiant.lefigaro.fr/article/enquete-sur-le-harcelement-scolaire-les-fil
 https://www.nonauharcelement.education.gouv.fr/wp-content/uploads/2012/01/guide_pratique_le_harcelement_entre_eleves1.pdf
 
 
-https://www.unicef.fr/sites/default/files/userfiles/UNICEF_FRANCE_violences_scolaires_mars_2011.pdf  </div>
+https://www.unicef.fr/sites/default/files/userfiles/UNICEF_FRANCE_violences_scolaires_mars_2011.pdf
 
 
