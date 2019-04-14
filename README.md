@@ -134,7 +134,7 @@ Generally, people who are bullied have one or more risk factors like mental diso
 <p>&nbsp; </p>
 
 # Annexe
-<div align="justify">Nous nous sommes inspirés de plusieurs articles et études décrivant le phénomène du harcèlement pour les différentes causes et types.
+<div align="justify">
   
   
 
