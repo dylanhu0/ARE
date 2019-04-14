@@ -135,6 +135,8 @@ Generally, people who are bullied have one or more risk factors like mental diso
 
 # Annexe
 <div align="justify">Nous nous sommes inspirés de plusieurs articles et études décrivant le phénomène du harcèlement pour les différentes causes et types.
+  
+  
 
 https://nospensees.fr/5-types-de-harcelement-a-lecole/
 http://www.i-share.fr/actualite/le-harcelement-scolaire-quen-est-il-en-2018
