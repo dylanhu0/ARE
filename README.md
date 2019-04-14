@@ -134,7 +134,7 @@ Generally, people who are bullied have one or more risk factors like mental diso
 <p>&nbsp; </p>
 
 # Annexe
-Nous nous sommes inspirés de plusieurs articles et études décrivant le phénomène du harcèlement pour les différentes causes et types.
+<div align="justify">Nous nous sommes inspirés de plusieurs articles et études décrivant le phénomène du harcèlement pour les différentes causes et types.
 
 https://nospensees.fr/5-types-de-harcelement-a-lecole/
 http://www.i-share.fr/actualite/le-harcelement-scolaire-quen-est-il-en-2018
@@ -142,6 +142,6 @@ http://www.i-share.fr/actualite/le-harcelement-scolaire-quen-est-il-en-2018
 
 https://www.nonauharcelement.education.gouv.fr/wp-content/uploads/2012/01/guide_pratique_le_harcelement_entre_eleves1.pdf
 
-https://etudiant.lefigaro.fr/article/enquete-sur-le-harcelement-scolaire-les-filles-sont-surrepresentees-_596f11e6-c554-11e7-b5ea-cfc166fd55ef/
+https://etudiant.lefigaro.fr/article/enquete-sur-le-harcelement-scolaire-les-filles-sont-surrepresentees-_596f11e6-c554-11e7-b5ea-cfc166fd55ef/  </div>
 
 
