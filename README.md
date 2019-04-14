@@ -21,7 +21,7 @@ Generally, people who are bullied have one or more risk factors like mental diso
   
 # Modélisation
 
-<div align="justify">Notre projet cherche à représenter selon certaines conditions l'état d'une victime d'un harcèlement, en reflétant la réalité avec le maximum de situations possibles. Notre objectif est de montrer que cet état peut évoluer selon le type d'individu qui l'entoure. Dans un premiers temps, il sera décrit le modèle d'étude utilisé pour illustrer le phénomène puis les paramètres disponibles et enfin la dynamique sera explicité à l'aide d'un exemple</div>
+<div align="justify">Notre projet cherche à représenter selon certaines conditions l'état d'une victime d'un harcèlement, en reflétant la réalité avec le maximum de situations possibles. Notre objectif est de montrer que cet état peut évoluer selon le type d'individu qui l'entoure. Dans un premiers temps, il sera décrit le modèle d'étude utilisé pour illustrer le phénomène, puis les paramètres disponibles seront énoncés. Enfin la dynamique du système sera explicité à l'aide d'un exemple.</div>
 
 <p>&nbsp; </p>
 
@@ -32,7 +32,7 @@ Generally, people who are bullied have one or more risk factors like mental diso
 
 <div align="justify">Dans l'environnement chaque individu est représenté par un cercle coloré selon son influence (positive ou négative) sur la victime :</div>
 
-* Rouge et rouge clair : harceleur
+* Rouge et rouge clair : harceleurs
 * Vert : entourage de la victime
 * Blanc : individu neutre
 
@@ -45,10 +45,10 @@ Generally, people who are bullied have one or more risk factors like mental diso
 * Noir : très atteint
 <p>&nbsp; </p>
 
-<div align="justify">Afin de faciliter la lisibilité du modèle, nous avons organisé ces différents cercles de telle sorte à ce qu'ils suivent une orbite prédefinie autour de la victime selon son statut dans l'environnement (harceleurs, neutre ou amis).</div>
+<div align="justify">Afin de faciliter la lisibilité du modèle, nous avons organisé ces différents cercles de telle sorte à ce qu'ils suivent une orbite prédefinie autour de la victime selon son statut dans l'environnement (harceleurs, neutres ou amis).</div>
 
 <p>&nbsp; </p>
-<div align="justify">Pour cela, on crée le cercle "Balle" puis on lui donne une vitesse pour enfin le faire apparaître et suivre l'orbite souhaitée à l'aide de coordonnées défini préalablement. On applique ce concept aux différents cercles présent dans l'environnement.</div>
+<div align="justify">Pour cela, on crée un cercle "Balle" puis on lui donne une vitesse pour enfin le faire apparaître et suivre l'orbite souhaitée à l'aide de coordonnées défini préalablement. On applique ce concept aux différents cercles présent dans l'environnement.</div>
 <p>&nbsp; </p>
 
     1. Balle = canvas.create_oval(X,Y,X,Y,fill='white')
@@ -71,7 +71,7 @@ Generally, people who are bullied have one or more risk factors like mental diso
 ## La dynamique du système
 
 
-<div align="justify">Une fois la situation initiale créée, le groupe d'harceleur apparait au lancement du programme. Au bout de quelques secondes, le groupe s’attaque à un individu qui devient alors la victime.. Au cours du temps, son état peut s'améliorer ou s'empirer. Pour prévenir de possibles changements d'état, ceux-ci sont précédés d'un état "intermédiaire" illustré graphiquement par une variation rapide de la couleur de la victime.  </div>
+<div align="justify">Une fois la situation initiale créée, le groupe d'harceleur apparait au lancement du programme. Au bout de quelques secondes, le groupe s’attaque à un individu qui devient alors la victime. Au cours du temps, son état peut s'améliorer ou s'aggraver. Pour prévenir de possibles changements d'état, ceux-ci sont précédés d'un état "intermédiaire" illustré graphiquement par une variation rapide de la couleur de la victime.  </div>
  
  
 
@@ -112,7 +112,7 @@ Generally, people who are bullied have one or more risk factors like mental diso
 
 # Conclusion
 
-<div align="justify">Les différentes situations initiales possibles à l'aide des causes et des types d'harcèlement, autorisent un large pannel de résultats sur l'état final de la victime. En tentant d'ajouter le maximum de paramètrees nous avons pu nous rapprocher au mieux de la réalité. En effet notre modèle d'étude décrit aussi bien l'isolement de la victime que l'intensité du harcèlement qu'elle subit. Néanmoins, il reste quelques  facteurs du harcèlement ne sont pas décrits par notre projet comme le sexe de la victime par rapport à celui de ses harceleurs (une femme entourée d'hommes ou encore l'influence qu'à la victime sur son entourage (aggressivité par exemple).</div>
+<div align="justify">Les différentes situations initiales possibles, à l'aide des causes et des types d'harcèlement, autorisent une variété de résultats sur l'état final de la victime. En tentant d'ajouter le maximum de paramètres, nous avons pu nous rapprocher au mieux de la réalité. En effet notre modèle d'étude décrit aussi bien l'isolement de la victime que l'intensité du harcèlement qu'elle subit. Néanmoins, il reste quelques facteurs du harcèlement qui ne sont pas décrits par notre projet comme le sexe de la victime par rapport à celui de ses harceleurs (une femme entourée d'hommes ou l'inverse), ainsi que l'influence qu'à la victime sur son entourage (l'aggressivité par exemple) pouvant petit à petit le négliger.</div>
 
 
 <p>&nbsp; </p>
