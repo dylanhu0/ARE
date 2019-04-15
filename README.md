@@ -128,7 +128,7 @@ Generally, people who are bullied have one or more risk factors like mental diso
 # Membres du groupe
 
 + AHMED ELADAWI Haïcem
-+ ELGHOUL Elio
++ EL GHOUL Elio
 + HU Dylan
 
 <p>&nbsp; </p>
