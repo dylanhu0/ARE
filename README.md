@@ -32,7 +32,7 @@ Generally, people who are bullied have one or more risk factors like mental diso
 
 <div align="justify">Dans l'environnement, chaque individu est représenté par un cercle coloré selon son influence, positive ou négative, sur la victime. Les couleurs sont choisies de la façon suivante :</div>
 
-* le rouge et le rouge clair représentent les harceleurs
+* le rouge et le rouge clair représentent deux types harceleurs : des meneurs et des suiveurs
 * le vert représente l’entourage de la victime
 * le blanc représente un individu neutre
 
