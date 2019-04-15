@@ -65,23 +65,18 @@ Generally, people who are bullied have one or more risk factors like mental diso
 
 
 
-## Paramètres pris en compte
+## Les paramètres
 
-En s'appuyant sur différentes études nous avons pu extraire,
+En s'appuyant sur différentes études nous avons pu extraire :
 
-* des causes du harcèlement :
-** Origine, etnie
-** Handicap (mental ou physique
-** Orientation sexuelle
-* et des types : 
-** Social (rumeurs, ignorer la victime...)
-** Physique
-** Verbal
-  
-  
+* des causes du harcèlement : Origine et etnie, Handicap (mental ou physique), Orientation sexuelle
+* et des types d'aggressions : Social (rumeurs, ignorer la victime...), Physique ou Verbal
+
+<div align="justify">Ces derniers sont classés de telles sortes à refléter la réalité la réalité. Nous avons, par exemple pu constater que plusieurs études mettent en avant le fait que le harcèlement verbal est très répandu. Dans notre environnement, cela se traduit par un nombre élevé d'harceleurs.</div>
+  Enfin, le dernier paramètre utilisé est celui de l'entourage de la victime que nous avons appelé "Nombre d'amis".
   
   <p>&nbsp; </p>
-  
+### La  prise en compte des paramètres
   
 <div align="justify">Dans un premier temps, l'action de l'utilisateur est requise pour générer une situation initiale qui évoluera dans un temps donné (30 secondes dans notre cas). Nous pouvons supposer qu'une seconde correspond à une semaine durant laquelle la victime est harcelée. La situation initiale varie selon la cause du harcèlement et le type d'aggression sélectionnés, comme le montre le tableau ci-dessous :</div>
 
@@ -89,8 +84,6 @@ En s'appuyant sur différentes études nous avons pu extraire,
 
 ![](https://www.cjoint.com/doc/19_04/IDnqnAmb8n6_Tableau-des-conditions-initiales-2.PNG "Conditions initiales possibles") 
 
-<p>&nbsp; </p>
-Enfin, le dernier paramètre utilisé est celui de l'entourage de la victime que nous avons appelé "Nombre d'amis". Ce dernier n'est pas interprêté dans la situation initiale, il intervient plus tard.
 <p>&nbsp; </p>
 
 ## La dynamique du système
