@@ -133,7 +133,7 @@ Generally, people who are bullied have one or more risk factors like mental diso
 
 <p>&nbsp; </p>
 
-# Bibliograpgie
+# Bibliographie
 
 https://nospensees.fr/5-types-de-harcelement-a-lecole/
 
