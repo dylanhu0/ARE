@@ -74,8 +74,8 @@ Generally, people who are bullied have one or more risk factors like mental diso
 ![](https://www.cjoint.com/doc/19_04/IDnqnAmb8n6_Tableau-des-conditions-initiales-2.PNG "Conditions initiales possibles") 
 
 <p>&nbsp; </p>
-
-
+Enfin, le dernier paramètre utilisé est celui de l'entourage que nous avons appelé "Nombre d'amis". Ce dernier n'est pas interprêté dans la situation initiale, il intervient plus tard.
+<p>&nbsp; </p>
 ## La dynamique du système
 
 
