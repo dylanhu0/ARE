@@ -5,8 +5,8 @@ import math,random
 import cmath
 import numpy
 import time
-
-#Initialisation 
+#-------------------------------------
+    #Initialisation 
 WIDTH = 1500
 HEIGHT = 500
 LARGEUR = 1200
@@ -18,7 +18,7 @@ canvas.pack(padx =5, pady =5)
 root.title('Harcèlement')
 canvas.pack()
 
-#Angles des Balles 
+    #Angles des Balles 
 cangleR1=cmath.exp(0.03j)
 cangleR2=cmath.exp(0.035j)
 cangleR3=cmath.exp(0.040j)
@@ -32,7 +32,7 @@ cangleV3=cmath.exp(0.045j)
 cangleV4=cmath.exp(0.050j)
 cangleV5=cmath.exp(0.065j)
 
-# position initiale au milieu 
+    # position initiale au milieu 
     #X
 XR1=70
 XR2=70
@@ -79,10 +79,10 @@ YN  = 1
 YN2 = 1
 Y3c1 = 1
 Y3c2 = 1
-#Le milieu
+    #Le milieu
 XC=LARGEUR/2
 YC=HAUTEUR/2
-
+#-------------------------------------
 # Echelle 
 def maj(nouvelleValeur):
     print(nouvelleValeur)
@@ -96,7 +96,7 @@ def moins():
     print(Valeur.get())
 Valeur = StringVar()
 Valeur.set(0)
-
+#-------------------------------------
 #Cause        
 cau1=0
 def cause1():
@@ -121,7 +121,7 @@ def cause3():
     if not(Arret):
         cau3=3
         print('cause3')
-
+#-------------------------------------
 #type
 ty1=0
 def type1():
@@ -146,7 +146,7 @@ def type3():
     if not(Arret):        
         ty3=3
         print('type3')
-        
+#-------------------------------------        
 #Permet de savoir la couleur que doit prendre la victime pour une cause et un type a t=15
 c1t1=0
 c1t2=0
@@ -168,7 +168,7 @@ C2T3=0
 C3T1=0
 C3T2=0
 C3T3=0
-
+#-------------------------------------
 #Deplacement
 def deplacement():
     global XR1,XR2,XR3,XRC,XBl1,XBl2,XBl3,XV1,XV2,XV3,XV4,XV5,XCy,XCy2,XCy3,XB,XB2,XBc,XN,XN2,X3c1,X3c2,YR1,YR2,YR3,YRC,YBl1,YBl2,YBl3,YV1,YV2,YV3,YV4,YV5,YCy,XCy2,YCy3,YB,YB2,YN,YN2,Y3c1,Y3c2,DX,DY,RAYON,LARGEUR,HAUTEUR, Arret
@@ -265,7 +265,7 @@ def deplacement():
         XV5=VV5.real
         YV5=VV5.imag
         
-        #Affichage
+#Affichage
         global cau1,cau2,cau3,ty1,ty2,ty3,c1t1,c1t2,c1t3,c2t1,c2t2,c2t3,c3t1,c3t2,c3t3,C1T1,C1T2,C1T3,C2T1,C2T2,C2T3,C3T1,C3T2,C3T3
         if cau1==1:
             if ty1 ==1:
@@ -334,7 +334,7 @@ def deplacement():
                 canvas.coords(BalleBl1,XC+XBl1-RAYON,YC+YBl1-RAYON,XC+XBl1+RAYON,YC+YBl1+RAYON)
                 c3t3=33
                 C3T3=33
-        #En fonction du temps
+#Affichage en fonction du temps
         #Apparition de la victime 
         if t == 5:
             canvas.coords(BalleCy,XC+XCy-RAYON,YC+YCy-RAYON,XC+XCy+RAYON,YC+YCy+RAYON)
@@ -372,7 +372,7 @@ def deplacement():
             if c3t3 == 33:
                 canvas.coords(BalleN,XC+XN-RAYON,YC+YN-RAYON,XC+XN+RAYON,YC+YN+RAYON)
                 c3t3=0    
-        #Temps des amis
+#Affichage des amis
         if t >= 20:
             if int(Valeur.get()) == 1:
                 canvas.coords(BalleV1,XC+XV1-RAYON,YC+YV1-RAYON,XC+XV1+RAYON,YC+YV1+RAYON)
@@ -398,13 +398,13 @@ def deplacement():
                 canvas.coords(BalleV3,XC+XV3-RAYON,YC+YV3-RAYON,XC+XV3+RAYON,YC+YV3+RAYON)
                 canvas.coords(BalleV4,XC+XV4-RAYON,YC+YV4-RAYON,XC+XV4+RAYON,YC+YV4+RAYON)
                 canvas.coords(BalleV5,XC+XV5-RAYON,YC+YV5-RAYON,XC+XV5+RAYON,YC+YV5+RAYON)
-        #Variation rapide des couleurs de la victime2
+#Variation rapide des couleurs de la victime2
         if t > 22 and t < 27:
             colors=["cyan","blue","black"]
             canvas.itemconfig(Balle3c2, fill=numpy.random.choice(colors))
             canvas.coords(Balle3c2,XC+X3c2-RAYON,YC+Y3c2-RAYON,XC+X3c2+RAYON,YC+Y3c2+RAYON)
             
-        #Changement de couleur de la victime selon le nombre d’amis et le nombre d'harceleur  
+#Changement de couleur de la victime selon le nombre d’amis et le nombre d'harceleur  
         if t >=27:
             if int(Valeur.get()) == 0:
                 if (C1T1 == 11) or (C1T2 == 12) or (C2T1 == 21):
@@ -439,7 +439,7 @@ def deplacement():
         root.update()
         time.sleep(0.04)
         
-    
+#-------------------------------------    
 #Go        
 def go():
     global t
@@ -447,7 +447,7 @@ def go():
     heur.set(0)
     timer()     
     deplacement()
-
+#-------------------------------------
 #Effacer
 def Effacer():
     global t
@@ -466,7 +466,7 @@ def Effacer():
     
     
 Arret=False
-
+#-------------------------------------
 #TIMER
 t = 0
 def timer():
@@ -485,37 +485,59 @@ frame.pack()
 timer_display = Label(root, textvar= heur)
 timer_display.place(x= 600, y= 495, anchor = CENTER)
 
-#L'image
-image = Image.open("harcelement.jpg")
+#-------------------------------------
+#Image
+image = Image.open("/Users/elioelghoul/Desktop/harcelement.png")
+
 photo = ImageTk.PhotoImage(image,master=root)
 label = Label(root, image=photo)
 label.image = photo
 label.place(x=5,y=5)
 
-#Les positions et boutons
+#-------------------------------------
+#Video
+#import tkinter as tk, threading
+#import imageio
+
+#video_name = "/Users/elioelghoul/Desktop/Suits.S08E13.WEBRip.x264-ION10.mp4" #video file path
+#video = imageio.get_reader(video_name)
+#my_label = tk.Label(root)
+#my_label.place(x=15,y=15)
+#thread = threading.Thread(target=stream, args=(my_label,))
+#thread.daemon = 1
+#thread.start()
+
+#-------------------------------------
+#Les potitions et boutons
 # Création d'un widget Scale
 echelle = Scale(root,from_=0,to=5,resolution=1,orient=HORIZONTAL,\
 length=300,width=20,label="Nombre d'amis",tickinterval=1,variable=Valeur,command='')
 echelle.place(x=830, y=515)
+
 # Création d'un widget Button (bouton +)
 Button(root,text="+",command=plus).place(x=965, y=605)
+
 # Création d'un widget Button (bouton -)
 Button(root,text="-",command=moins).place(x=985, y=605)
+
 #Les causes d agression
 label = Label(root, text="Les causes d'agression", bg="gold2")
 label.place(x=40,y=515)
-Button(root,text="Different race",command=cause1).place(x=40, y=545)
-Button(root,text="Mental disorder",command=cause2).place(x=40, y=575)
-Button(root,text="Different sexual orientation",command=cause3).place(x=40, y=605)
+Button(root,text="Origine, ethnie",command=cause1).place(x=40, y=545)
+Button(root,text="Handicap",command=cause2).place(x=40, y=575)
+Button(root,text="Orientation sexuelle",command=cause3).place(x=40, y=605)
+
 #Les types d agression
 label = Label(root, text="Les types d'agression", bg="gold2")
 label.place(x=560,y=515)
-Button(root,text="Social bullying",command=type1).place(x=560,y=545)
-Button(root,text="Physical bullying",command=type2).place(x=560,y=575)
-Button(root,text="Verbal bullying",command=type3).place(x=560,y=605)
+Button(root,text="Social",command=type1).place(x=560,y=545)
+Button(root,text="Physique",command=type2).place(x=560,y=575)
+Button(root,text="Verbal",command=type3).place(x=560,y=605)
+
 #Go
 BoutonGo = Button(root, text ='Go', command = go)
 BoutonGo.place(x=570, y=680)
+
 #effacer
 BoutonEffacer = Button(root, text ='Effacer', command = Effacer)
 BoutonEffacer.place(x=610, y=680)
