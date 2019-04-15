@@ -67,6 +67,22 @@ Generally, people who are bullied have one or more risk factors like mental diso
 
 ## Paramètres pris en compte
 
+En s'appuyant sur différentes études nous avons pu extraire,
+
+* des causes du harcèlement :
+** Origine, etnie
+** Handicap (mental ou physique
+** Orientation sexuelle
+* et des types : 
+** Social (rumeurs, ignorer la victime...)
+** Physique
+** Verbal
+  
+  
+  
+  <p>&nbsp; </p>
+  
+  
 <div align="justify">Dans un premier temps, l'action de l'utilisateur est requise pour générer une situation initiale qui évoluera dans un temps donné (30 secondes dans notre cas). Nous pouvons supposer qu'une seconde correspond à une semaine durant laquelle la victime est harcelée. La situation initiale varie selon la cause du harcèlement et le type d'aggression sélectionnés, comme le montre le tableau ci-dessous :</div>
 
 <p>&nbsp; </p>
