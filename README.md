@@ -76,6 +76,7 @@ Generally, people who are bullied have one or more risk factors like mental diso
 <p>&nbsp; </p>
 Enfin, le dernier paramètre utilisé est celui de l'entourage de la victime que nous avons appelé "Nombre d'amis". Ce dernier n'est pas interprêté dans la situation initiale, il intervient plus tard.
 <p>&nbsp; </p>
+
 ## La dynamique du système
 
 
