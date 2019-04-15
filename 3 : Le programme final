@@ -542,5 +542,15 @@ BoutonGo.place(x=570, y=680)
 BoutonEffacer = Button(root, text ='Effacer', command = Effacer)
 BoutonEffacer.place(x=610, y=680)
 
+#Le membre du groupe 
+label = Label(root, text="Réalisé par:", bg="Indianred2")
+label.place(x=1105,y=620)
+label = Label(root, text="EL GHOUL Elio", bg="white")
+label.place(x=1105,y=640)
+label = Label(root, text="AHMED ELADAWI Haïcem", bg="white")
+label.place(x=1105,y=660)
+label = Label(root, text="HU Dylan", bg="white")
+label.place(x=1105,y=680)
+
 root.mainloop()
         
