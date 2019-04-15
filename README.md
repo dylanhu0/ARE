@@ -21,7 +21,7 @@ Generally, people who are bullied have one or more risk factors like mental diso
   
 # Modélisation
 
-<div align="justify">Notre projet cherche à simuler l'état d'un(e) écolier(ère) victime d'un harcèlement scolaire Notre objectif est de montrer l’évolution de l’état du harcelé selon le type et le nombre d'individus qui l'entourent. En première étape, le modèle d'étude utilisé pour illustrer le phénomène est décrit. Ensuite, les paramètres disponibles sont énoncés. Enfin la dynamique du système est détaillée à l'aide d'un exemple.</div>
+<div align="justify">Notre projet cherche à simuler l'état d'une victime d'un harcèlement scolaire. Notre objectif est de montrer l’évolution de son état selon le type et le nombre d'individus qui l'entourent. En première étape, le modèle d'étude utilisé pour illustrer le phénomène est décrit. Ensuite, les paramètres disponibles sont énoncés. Enfin la dynamique du système est détaillée à l'aide d'un exemple.</div>
 
 <p>&nbsp; </p>
 
@@ -67,7 +67,7 @@ Generally, people who are bullied have one or more risk factors like mental diso
 
 ## Paramètres pris en compte
 
-<div align="justify">Dans un premier temps, l'action de l'utilisateur est requise pour générer une situation initiale qui évoluedans un temps donné (30 secondes dans notre cas), où nous pouvons supposer qu'une seconde correspond à une semaine durant laquelle la victime est harcelée. La situation initiale varie selon une cause et un type d'harcèlement sélectionnés, comme le montre le tableau ci-dessous :</div>
+<div align="justify">Dans un premier temps, l'action de l'utilisateur est requise pour générer une situation initiale qui évolue dans un temps donné (30 secondes dans notre cas), où nous pouvons supposer qu'une seconde correspond à une semaine durant laquelle la victime est harcelée. La situation initiale varie selon une cause et un type d'harcèlement sélectionnés, comme le montre le tableau ci-dessous :</div>
 
 <p>&nbsp; </p>
 
