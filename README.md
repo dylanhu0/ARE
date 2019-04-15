@@ -46,7 +46,13 @@ Generally, people who are bullied have one or more risk factors like mental diso
 <p>&nbsp; </p>
 
 <div align="justify">Afin de faciliter la lisibilité du modèle, nous avons organisé ces différents cercles de telle sorte à ce qu'ils suivent une orbite prédefinie autour de la victime selon son statut dans l'environnement (harceleurs, neutres ou amis).</div>
+<p>&nbsp; </p>
 
+![](https://www.cjoint.com/doc/19_04/IDowje6tal6_orbite2.PNG "Organisation de l'environnement")
+
+
+
+<p>&nbsp; </p>
 <p>&nbsp; </p>
 <div align="justify">Pour cela, on crée un cercle "Balle" puis on lui donne une vitesse pour enfin le faire apparaître et suivre l'orbite souhaitée à l'aide de coordonnées défini préalablement. On applique ce concept aux différents cercles présent dans l'environnement.</div>
 <p>&nbsp; </p>
@@ -55,13 +61,6 @@ Generally, people who are bullied have one or more risk factors like mental diso
     2. cangle=cmath.exp(0.09j)
        V=cangle*complex(X,Y)       
     3. canvas.coords(Balle,XC+X-RAYON,YC+Y-RAYON,XC+X+RAYON,YC+Y+RAYON)
-<p>&nbsp; </p>
-
-![](https://www.cjoint.com/doc/19_04/IDowje6tal6_orbite2.PNG "Organisation de l'environnement")
-
-
-
-<p>&nbsp; </p>
 
 
 
