@@ -72,7 +72,7 @@ En s'appuyant sur différentes études nous avons pu extraire :
 * des causes du harcèlement : Origine et etnie, Handicap (mental ou physique), Orientation sexuelle
 * et des types d'aggressions : Social (rumeurs, ignorer la victime...), Physique ou Verbal
 
-<div align="justify">Ces derniers sont classés de telles sortes à refléter la réalité la réalité. Nous avons, par exemple pu constater que plusieurs études mettent en avant le fait que le harcèlement verbal est très répandu. Dans notre environnement, cela se traduit par un nombre élevé d'harceleurs.</div>
+<div align="justify">Ces derniers sont classés de telles sortes à refléter la réalité. Nous avons, par exemple pu constater que plusieurs études mettent en avant le fait que le harcèlement verbal est très répandu. Dans notre environnement, cela se traduit par un nombre élevé d'harceleurs.</div>
   Enfin, le dernier paramètre utilisé est celui de l'entourage de la victime que nous avons appelé "Nombre d'amis".
   
   <p>&nbsp; </p>
