@@ -45,7 +45,7 @@ Generally, people who are bullied have one or more risk factors like mental diso
 * le noir représente un état très atteint
 <p>&nbsp; </p>
 
-<div align="justify">Afin de faciliter la lisibilité du modèle, nous avons organisé ces différents cercles de telle sorte à ce qu'ils suivent une orbite prédéfinie autour de la victime selon son statut dans l'environnement. Les statuts possibles sont donc : harceleurs, neutres ou amis.</div>
+<div align="justify">En plus de faciliter la lisibilité du modèle, nous avons organisé ces différents cercles de telle sorte à ce qu'ils suivent une orbite prédéfinie autour de la victime selon son statut dans l'environnement car nous avons établi qu'il n'était pas possible d'avoir à la fois le statut d'agresseur et d'aideur. Les statuts possibles sont donc : harceleurs, neutres ou amis.</div>
 
 <p>&nbsp; </p>
 <div align="justify">Pour cela, nous créons un cercle "Balle" puis nous lui donnons une vitesse pour enfin le faire apparaître et suivre l'orbite souhaitée à l'aide de coordonnées définies préalablement. Nous appliquons ce concept aux différents cercles présents dans l'environnement.</div>
